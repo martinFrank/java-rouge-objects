@@ -10,6 +10,9 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+#ignore generated sources
+src/main/java/com/github/martinfrank/javarouge/generated/
+
 # Package Files #
 *.jar
 *.war
