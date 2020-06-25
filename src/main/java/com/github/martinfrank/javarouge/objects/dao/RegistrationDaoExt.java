@@ -1,9 +1,9 @@
-package com.github.martinfrank.javarouge.dao;
+package com.github.martinfrank.javarouge.objects.dao;
 
-import com.github.martinfrank.javarouge.generated.Tables;
-import com.github.martinfrank.javarouge.generated.tables.daos.RegistrationDao;
-import com.github.martinfrank.javarouge.generated.tables.pojos.Registration;
-import com.github.martinfrank.javarouge.generated.tables.records.RegistrationRecord;
+import com.github.martinfrank.javarouge.objects.generated.Tables;
+import com.github.martinfrank.javarouge.objects.generated.tables.daos.RegistrationDao;
+import com.github.martinfrank.javarouge.objects.generated.tables.pojos.Registration;
+import com.github.martinfrank.javarouge.objects.generated.tables.records.RegistrationRecord;
 import org.jooq.Configuration;
 import org.jooq.Result;
 import org.jooq.impl.DSL;

@@ -18,7 +18,7 @@
         </generate>
         <target>
             <!--<packageName>org.jooq.h2.generated</packageName>-->
-            <packageName>com.github.martinfrank.javarouge.generated</packageName>
+            <packageName>com.github.martinfrank.javarouge.objects.generated</packageName>
             <directory>./src/main/java</directory>
         </target>
     </generator>

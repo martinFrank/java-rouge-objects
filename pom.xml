@@ -67,7 +67,11 @@
             <artifactId>slf4j-log4j12</artifactId>
             <version>1.7.5</version>
         </dependency>
-
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
         <!-- Note: These aren't hosted on Maven Central. Import them manually from your distribution -->
         <!-- Replace the groupId by org.jooq.trial-java-6 (Java 6 support), or org.jooq.trial (Java 11 support) if needed -->
         <dependency>
