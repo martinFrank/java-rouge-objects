@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e9f8709-7600-4957-8fbc-d03681431351" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../java-rouge-javafx/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge-javafx/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-rouge-javafx/java-rouge-javafx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge-javafx/java-rouge-javafx.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/dao/RegistrationDaoExt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/dao/RegistrationDaoExt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/DeleteDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/InsertDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/JooqTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ReadDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/SchemaCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/SchemaCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/UpdateDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/codegen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/codegen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-rouge/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-rouge/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-rouge/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dlVqJt2JXZdB4daRUhv4odsNOx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592999810570" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../map-library/pom.xml" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.github.martinfrank.javarouge.objects" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.github.martinfrank.javarouge.objects" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fmar\IdeaProjects\java-rouge-objects" />
+      <recent name="C:\Users\fmar\IdeaProjects\java-rouge-objects\src\test" />
+      <recent name="C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ObjectsManagerTest">
+    <configuration name="ObjectsManagerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.martinfrank.javarouge.objects.ObjectsManagerTest" />
+      <module name="java-rouge-objects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.martinfrank.javarouge.objects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SchemaCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.martinfrank.javarouge.SchemaCreator" />
+      <module name="java-rouge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.martinfrank.javarouge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SchemaCreator" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.martinfrank.javarouge.objects.SchemaCreator" />
+      <module name="java-rouge-objects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.martinfrank.javarouge.objects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SchemaCreator" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.martinfrank.javarouge.objects.SchemaCreator" />
+      <module name="java-rouge-objects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.martinfrank.javarouge.objects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SchemaCreator" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.martinfrank.javarouge.objects.SchemaCreator" />
+      <module name="java-rouge-objects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.martinfrank.javarouge.objects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ObjectsManagerTest" />
+      <item itemvalue="Application.SchemaCreator" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ObjectsManagerTest" />
+        <item itemvalue="Application.SchemaCreator" />
+        <item itemvalue="Application.SchemaCreator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SQLPlugin.ProjectConfiguration">
+    <queries />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e9f8709-7600-4957-8fbc-d03681431351" name="Default Changelist" comment="" />
+      <created>1592917651927</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592917651927</updated>
+    </task>
+    <task id="LOCAL-00001" summary="initial setup">
+      <created>1592924460610</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592924460610</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial setup">
+      <created>1592924476989</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592924476989</updated>
+    </task>
+    <task id="LOCAL-00003" summary="dao support">
+      <created>1592978679647</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592978679647</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="initial setup" />
+    <MESSAGE value="dao support" />
+    <option name="LAST_COMMIT_MESSAGE" value="dao support" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="689" y="334" width="354" height="319" key="DBNavigator.ConnectionAuthenticationDialog" timestamp="1593007127563">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="334" width="354" height="319" key="DBNavigator.ConnectionAuthenticationDialog/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593007127563" />
+    <state x="396" y="124" key="DBNavigator.ProjectSettingsDialog" timestamp="1593005161558">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="396" y="124" key="DBNavigator.ProjectSettingsDialog/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593005161558" />
+    <state x="661" y="359" key="DBNavigator.ResultSetRecordViewerDialog" timestamp="1593004345059">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="359" key="DBNavigator.ResultSetRecordViewerDialog/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593004345059" />
+    <state x="646" y="210" key="FileChooserDialogImpl" timestamp="1593003675458">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="646" y="210" key="FileChooserDialogImpl/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593003675458" />
+    <state x="522" y="133" key="SettingsEditor" timestamp="1593003332935">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="522" y="133" key="SettingsEditor/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593003332935" />
+  </component>
+</project>
