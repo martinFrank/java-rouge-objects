@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e9f8709-7600-4957-8fbc-d03681431351" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../fight-lib/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../fight-lib/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-rouge-javafx/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge-javafx/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-rouge-javafx/java-rouge-javafx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge-javafx/java-rouge-javafx.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/dao/RegistrationDaoExt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/dao/RegistrationDaoExt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/DeleteDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/InsertDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/JooqTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ReadDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/SchemaCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/SchemaCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/UpdateDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/codegen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/codegen.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/test.trace.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-rouge/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-rouge/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-rouge/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
@@ -40,7 +29,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../fight-lib" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -191,7 +180,28 @@
       <option name="project" value="LOCAL" />
       <updated>1592978679647</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dao support">
+      <created>1593059485991</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593059485991</updated>
+    </task>
+    <task id="LOCAL-00005" summary="dao support">
+      <created>1593059543938</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593059543938</updated>
+    </task>
+    <task id="LOCAL-00006" summary="dao support">
+      <created>1593059548260</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593059548260</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -203,6 +213,10 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="215" y="38" key="CommitChangelistDialog2" timestamp="1593059547395">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="215" y="38" key="CommitChangelistDialog2/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593059547395" />
     <state x="689" y="334" width="354" height="319" key="DBNavigator.ConnectionAuthenticationDialog" timestamp="1593007127563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -223,5 +237,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="522" y="133" key="SettingsEditor/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593003332935" />
+    <state x="458" y="202" key="Vcs.Push.Dialog.v2" timestamp="1593059573996">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="458" y="202" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593059573996" />
   </component>
 </project>
