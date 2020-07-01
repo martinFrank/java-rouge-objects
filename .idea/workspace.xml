@@ -2,13 +2,168 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e9f8709-7600-4957-8fbc-d03681431351" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../fight-lib/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../fight-lib/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-rouge-javafx/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge-javafx/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-rouge-javafx/java-rouge-javafx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge-javafx/java-rouge-javafx.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/test.trace.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-rouge/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-rouge/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-rouge/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/erd.uxf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/url.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ObjectsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ObjectsManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ObjectsManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ObjectsManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/SchemaCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/SchemaCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/dao/MonsterDaoExt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/dao/MonstermodelDaoExt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/dao/RegistrationDaoExt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/dbconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/dbconfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/dbschema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/dbschema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/dao/RegistrationDaoExt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/dao/class-use/RegistrationDaoExt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/dao/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/dao/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/dao/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/dao/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/DefaultCatalog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/Keys.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/Public.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/Tables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/class-use/DefaultCatalog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/class-use/Keys.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/class-use/Public.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/class-use/Tables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/Item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/Monster.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/Registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/class-use/Item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/class-use/Monster.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/class-use/Registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/daos/ItemDao.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/daos/MonsterDao.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/daos/RegistrationDao.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/daos/class-use/ItemDao.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/daos/class-use/MonsterDao.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/daos/class-use/RegistrationDao.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/daos/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/daos/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/daos/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/daos/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/pojos/Item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/pojos/Monster.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/pojos/Registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/pojos/class-use/Item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/pojos/class-use/Monster.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/pojos/class-use/Registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/pojos/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/pojos/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/pojos/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/pojos/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/records/ItemRecord.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/records/MonsterRecord.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/records/RegistrationRecord.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/records/class-use/ItemRecord.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/records/class-use/MonsterRecord.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/records/class-use/RegistrationRecord.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/records/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/records/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/records/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/generated/tables/records/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/DeleteDemo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/InsertDemo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/JooqTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/ReadDemo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/SchemaCreator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/UpdateDemo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/class-use/DeleteDemo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/class-use/InsertDemo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/class-use/JooqTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/class-use/ReadDemo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/class-use/SchemaCreator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/class-use/UpdateDemo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/DefaultCatalog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/Keys.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/Public.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/Tables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/class-use/DefaultCatalog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/class-use/Keys.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/class-use/Public.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/class-use/Tables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/Item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/Monster.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/Registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/class-use/Item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/class-use/Monster.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/class-use/Registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/daos/ItemDao.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/daos/MonsterDao.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/daos/RegistrationDao.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/daos/class-use/ItemDao.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/daos/class-use/MonsterDao.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/daos/class-use/RegistrationDao.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/daos/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/daos/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/daos/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/daos/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/pojos/Item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/pojos/Monster.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/pojos/Registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/pojos/class-use/Item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/pojos/class-use/Monster.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/pojos/class-use/Registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/pojos/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/pojos/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/pojos/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/pojos/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/records/ItemRecord.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/records/MonsterRecord.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/records/RegistrationRecord.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/records/class-use/ItemRecord.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/records/class-use/MonsterRecord.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/records/class-use/RegistrationRecord.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/records/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/records/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/records/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/generated/tables/records/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/github/martinfrank/javarouge/objects/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/index-all.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/serialized-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/java-rouge-objects.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dbconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dbconfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dbschema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dbschema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.trace.db" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,13 +178,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../fight-lib" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -48,7 +203,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592999810570" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../map-library/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/uml" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -62,12 +217,13 @@
       <recent name="com.github.martinfrank.javarouge.objects" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fmar\IdeaProjects\java-rouge-objects\uml" />
       <recent name="C:\Users\fmar\IdeaProjects\java-rouge-objects" />
       <recent name="C:\Users\fmar\IdeaProjects\java-rouge-objects\src\test" />
       <recent name="C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ObjectsManagerTest">
+  <component name="RunManager" selected="Application.SchemaCreator">
     <configuration name="ObjectsManagerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.martinfrank.javarouge.objects.ObjectsManagerTest" />
       <module name="java-rouge-objects" />
@@ -133,12 +289,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SchemaCreator" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.martinfrank.javarouge.objects.SchemaCreator" />
+      <module name="java-rouge-objects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.martinfrank.javarouge.objects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ObjectsManagerTest" />
       <item itemvalue="Application.SchemaCreator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SchemaCreator" />
         <item itemvalue="Application.ObjectsManagerTest" />
         <item itemvalue="Application.SchemaCreator" />
         <item itemvalue="Application.SchemaCreator" />
@@ -201,22 +371,92 @@
       <option name="project" value="LOCAL" />
       <updated>1593059548260</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="intellij">
+      <created>1593061668713</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1593061668713</updated>
+    </task>
+    <task id="LOCAL-00008" summary="intellij">
+      <created>1593061677762</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1593061677762</updated>
+    </task>
+    <task id="LOCAL-00009" summary="intellij">
+      <created>1593061702010</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1593061702010</updated>
+    </task>
+    <task id="LOCAL-00010" summary="intellij">
+      <created>1593061734915</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1593061734915</updated>
+    </task>
+    <task id="LOCAL-00011" summary="intellij">
+      <created>1593061781738</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1593061781738</updated>
+    </task>
+    <task id="LOCAL-00012" summary="intellij">
+      <created>1593061834785</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1593061834785</updated>
+    </task>
+    <task id="LOCAL-00013" summary="intellij">
+      <created>1593061848890</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1593061848890</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="initial setup" />
     <MESSAGE value="dao support" />
-    <option name="LAST_COMMIT_MESSAGE" value="dao support" />
+    <MESSAGE value="intellij" />
+    <option name="LAST_COMMIT_MESSAGE" value="intellij" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="215" y="38" key="CommitChangelistDialog2" timestamp="1593059547395">
+    <state x="380" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593176547647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="215" y="38" key="CommitChangelistDialog2/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593059547395" />
+    <state x="380" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593176547647" />
+    <state x="860" y="337" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593495858801">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="860" y="337" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593495858801" />
+    <state x="730" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1593491385229">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="730" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593491385229" />
+    <state x="483" y="97" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593176616151">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="483" y="97" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593176616151" />
+    <state x="656" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593176494223">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593176494223" />
+    <state x="520" y="171" key="CommitChangelistDialog2" timestamp="1593061847955">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="520" y="171" key="CommitChangelistDialog2/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593061847955" />
     <state x="689" y="334" width="354" height="319" key="DBNavigator.ConnectionAuthenticationDialog" timestamp="1593007127563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -233,13 +473,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="646" y="210" key="FileChooserDialogImpl/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593003675458" />
-    <state x="522" y="133" key="SettingsEditor" timestamp="1593003332935">
+    <state width="1389" height="210" key="GridCell.Tab.0.bottom" timestamp="1593177257514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="522" y="133" key="SettingsEditor/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593003332935" />
-    <state x="458" y="202" key="Vcs.Push.Dialog.v2" timestamp="1593059573996">
+    <state width="1389" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593177257514" />
+    <state width="1389" height="210" key="GridCell.Tab.0.center" timestamp="1593177257514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="458" y="202" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593059573996" />
+    <state width="1389" height="210" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593177257514" />
+    <state width="1389" height="210" key="GridCell.Tab.0.left" timestamp="1593177257514">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1389" height="210" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593177257514" />
+    <state width="1389" height="210" key="GridCell.Tab.0.right" timestamp="1593177257514">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1389" height="210" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593177257514" />
+    <state x="522" y="133" key="SettingsEditor" timestamp="1593176438494">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="522" y="133" key="SettingsEditor/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593176438494" />
+    <state x="458" y="202" key="Vcs.Push.Dialog.v2" timestamp="1593061850848">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="458" y="202" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593061850848" />
   </component>
 </project>

@@ -1,0 +1,48 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>590</x><y>220</y><w>120</w><h>60</h></coordinates><panel_attributes>Stats
+--
+id: long
+value: double</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>590</x><y>110</y><w>120</w><h>70</h></coordinates><panel_attributes>&lt;&lt;Enum&gt;&gt;
+Stat
+--
+id: long
+name: varchar(255)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>270</x><y>220</y><w>130</w><h>60</h></coordinates><panel_attributes>Items
+--
+id: long
+chance: double (0..1)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>120</x><y>230</y><w>120</w><h>80</h></coordinates><panel_attributes>Item
+--
+id: long
+name: varchar(255)
+worth: double
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>140</x><y>110</y><w>150</w><h>70</h></coordinates><panel_attributes>StatsModifier
+--
+id: long
+operator: varchar (ENUM)
+value: double</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>230</y><w>60</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;40;10</additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>170</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>160</y><w>330</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;310;10</additional_attributes></element><element><id>Relation</id><coordinates><x>530</x><y>400</y><w>110</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;90;10</additional_attributes></element><element><id>Relation</id><coordinates><x>390</x><y>220</y><w>50</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;30;10</additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>170</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>440</x><y>390</y><w>100</w><h>60</h></coordinates><panel_attributes>Skills
+--
+id: long
+value: double
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>620</x><y>390</y><w>130</w><h>100</h></coordinates><panel_attributes>&lt;&lt;Enum&gt;&gt;
+Skill
+--
+id: long
+name: varchar(255)
+value: double
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>500</x><y>300</y><w>50</w><h>110</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1..n</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>550</x><y>220</y><w>60</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;40;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>220</y><w>140</w><h>90</h></coordinates><panel_attributes>Monster
+--
+id: long
+name: varchar (255)
+difficulty: double
+exp: double</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>260</x><y>330</y><w>140</w><h>60</h></coordinates><panel_attributes>Drops
+--
+id: long
+chance: double(0..1)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>300</y><w>70</w><h>70</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;50;50</additional_attributes></element><element><id>Relation</id><coordinates><x>390</x><y>300</y><w>90</w><h>70</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;50;70;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>730</x><y>220</y><w>130</w><h>60</h></coordinates><panel_attributes>SkillRequirements
+--
+id: long
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>740</x><y>270</y><w>70</w><h>160</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;140;50;10</additional_attributes></element><element><id>Relation</id><coordinates><x>700</x><y>120</y><w>110</w><h>120</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>90;100;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>130</x><y>400</y><w>120</w><h>80</h></coordinates><panel_attributes>&lt;&lt;Enum&gt;&gt;
+ItemType
+--
+id: long
+name: varchar(255)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>300</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element></diagram>

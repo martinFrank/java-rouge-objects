@@ -1,7 +1,9 @@
 package com.github.martinfrank.javarouge.objects;
 
-import com.github.martinfrank.javarouge.objects.dao.MonsterDaoExt;
-import com.github.martinfrank.javarouge.objects.generated.tables.pojos.Monster;
+import com.github.martinfrank.javarouge.objects.dao.MonstermodelDaoExt;
+import com.github.martinfrank.javarouge.objects.generated.tables.Statsmodel;
+import com.github.martinfrank.javarouge.objects.generated.tables.daos.StatsmodelDao;
+import com.github.martinfrank.javarouge.objects.generated.tables.pojos.Monstermodel;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -12,17 +14,21 @@ public class ObjectsManagerTest {
     public static void main(String[] args) throws SQLException, IOException, ClassNotFoundException {
 
         ObjectsManager objectsManager = new ObjectsManager();
-        MonsterDaoExt monsterDaoExt = objectsManager.getMonsterDao();
+        MonstermodelDaoExt monsterDaoExt = objectsManager.getMonstermodelDao();
+        StatsmodelDao statsmodelDao = objectsManager.getStatsmodelDao();
 
 //        Monster monster = new Monster();
 //        monster.setId(2);
 //        monster.setName("ladybug");
 //        monsterDaoExt.insert(monster);
 
-        List<Monster> monsters = monsterDaoExt.fetchAll();
-        for (Monster monster : monsters) {
+        List<Monstermodel> monsters = monsterDaoExt.fetchAll();
+        for (Monstermodel monster : monsters) {
             System.out.println(monster);
         }
+
+        Monstermodel model = monsters.get(0);
+        Statsmodel statsmodel = statsmodelDao.fe
 
         objectsManager.close();
     }
