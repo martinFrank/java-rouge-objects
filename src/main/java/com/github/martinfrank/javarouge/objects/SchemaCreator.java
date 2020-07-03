@@ -12,7 +12,8 @@ import java.util.stream.Collectors;
 public class SchemaCreator {
 
     private static final String JDBC_DRIVER = "org.h2.Driver";
-    private static final String DB_URL = "jdbc:h2:./test";
+    //private static final String DB_URL = "jdbc:h2:./test";
+    private static final String DB_URL = "jdbc:h2:./objects";
     private static final String USER = "sa";
     private static final String PASS = "";
 
@@ -21,12 +22,12 @@ public class SchemaCreator {
         List<String> statements;
         try {
             Class.forName(JDBC_DRIVER);
-            List<String> lines = Files.readAllLines(new File("src/main/resources/dbschema.sql").toPath());
+            List<String> lines = Files.readAllLines(new File("src/main/resources/sql/dbschema.sql").toPath());
 //            List<String> lines = Files.readAllLines(new File("dbschema.sql").toPath());
             for (String sql : lines) {
                 System.out.println("line: " + sql);
             }
-            statements = lines.stream().filter(l -> l.length() > 0 && l.charAt(0) != '#').collect(Collectors.toList());
+            statements = lines.stream().filter(l -> l.trim().length() > 0 && l.trim().charAt(0) != '#').collect(Collectors.toList());
         } catch (ClassNotFoundException | IOException e) {
             System.out.println("error: " + e);
             return;

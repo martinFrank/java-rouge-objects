@@ -1,0 +1,25 @@
+2020-07-02 13:53:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabelle "MONSTER" nicht gefunden
+Table "MONSTER" not found; SQL statement:
+create TABLE IF NOT EXISTS Stats(id INTEGER not NULL, foreign key (id) references monster(id), foreign key (id) references Stat(id)) [42102-197]
+2020-07-02 13:54:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Anzahl der Felder stimmt nicht überein
+Column count does not match; SQL statement:
+INSERT INTO Monster VALUES ('GridBug', 0.9,0.9) [21002-197]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.command.dml.Insert.prepare(Insert.java:306)
+	at org.h2.command.Parser.prepareCommand(Parser.java:283)
+	at org.h2.engine.Session.prepareLocal(Session.java:611)
+	at org.h2.engine.Session.prepareCommand(Session.java:549)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1247)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:217)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:205)
+	at net.sourceforge.squirrel_sql.client.session.StatementWrapper.execute(StatementWrapper.java:168)
+	at net.sourceforge.squirrel_sql.client.session.SQLExecuterTask.processQuery(SQLExecuterTask.java:361)
+	at net.sourceforge.squirrel_sql.client.session.SQLExecuterTask.runDirect(SQLExecuterTask.java:214)
+	at net.sourceforge.squirrel_sql.client.session.SQLExecuterTask.run(SQLExecuterTask.java:137)
+	at net.sourceforge.squirrel_sql.fw.util.TaskExecuter.run(TaskExecuter.java:82)
+	at java.base/java.lang.Thread.run(Thread.java:834)

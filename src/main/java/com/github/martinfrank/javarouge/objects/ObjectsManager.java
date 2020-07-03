@@ -1,7 +1,7 @@
 package com.github.martinfrank.javarouge.objects;
 
-import com.github.martinfrank.javarouge.objects.dao.MonstermodelDaoExt;
-import com.github.martinfrank.javarouge.objects.dao.StatsmodelDaoExt;
+import com.github.martinfrank.javarouge.objects.dao.MonsterDaoExt;
+import com.github.martinfrank.javarouge.objects.dao.StatDaoExt;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,13 +14,13 @@ public class ObjectsManager implements Closeable {
     private static final Logger LOGGER = LoggerFactory.getLogger(ObjectsManager.class);
 
     private final ConfigurationProvider configurationProvider;
-    private final MonstermodelDaoExt monstermodelDaoExt;
-    private final StatsmodelDaoExt statsmodelDaoExt;
+    private final MonsterDaoExt monsterDaoExt;
+    private final StatDaoExt statDaoExt;
 
     public ObjectsManager() throws IOException, ClassNotFoundException, SQLException {
         configurationProvider = new H2ConfigurationProvider();
-        monstermodelDaoExt = new MonstermodelDaoExt(configurationProvider.getConfiguration());
-        statsmodelDaoExt = new StatsmodelDaoExt(configurationProvider.getConfiguration());
+        monsterDaoExt = new MonsterDaoExt(configurationProvider.getConfiguration());
+        statDaoExt = new StatDaoExt(configurationProvider.getConfiguration());
     }
 
     @Override
@@ -28,11 +28,11 @@ public class ObjectsManager implements Closeable {
         configurationProvider.close();
     }
 
-    public MonstermodelDaoExt getMonstermodelDao() {
-        return monstermodelDaoExt;
+    public MonsterDaoExt getMonsterDao() {
+        return monsterDaoExt;
     }
 
-    public StatsmodelDaoExt getStatsmodelDao() {
-        return statsmodelDaoExt;
+    public StatDaoExt getStatDao() {
+        return statDaoExt;
     }
 }
