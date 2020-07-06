@@ -20,28 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e9f8709-7600-4957-8fbc-d03681431351" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ConnectionProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/CrossReferenceCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/DbCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/Stats.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ItemManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ItemPrototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/Modifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/MonsterManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/SystemData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects.mv.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects.trace.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ConfigurationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ConfigurationProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/objects.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/objects.trace.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ContentCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ContentCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/H2ConfigurationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/H2ConfigurationProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/CrossReferenceCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/CrossReferenceCreator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ObjectsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ObjectsManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ObjectsManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ObjectsManagerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/SchemaCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/SchemaCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/dao/StatDaoExt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/dao/StatDaoExt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/dao/MonsterDaoExt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/dao/ItemtypeDaoExt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/sql/Item.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/Item.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/sql/ItemType.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/ItemType.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/Monster.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/Monster.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/Skill.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/Skill.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/Stat.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/Stat.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/sql/dbschema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/dbschema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codegen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codegen.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dbschema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594013174926</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added content to objects db">
+      <created>1594033142510</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1594033142510</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -378,22 +381,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="860" y="337" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593756031721" />
-    <state x="730" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1594027417766">
+    <state x="730" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1594042659963">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="730" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594027417766" />
+    <state x="730" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594042659963" />
     <state x="483" y="3" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593688507019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="483" y="3" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593688507019" />
-    <state x="656" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593176494223">
+    <state x="656" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594042512147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593176494223" />
-    <state x="520" y="171" key="CommitChangelistDialog2" timestamp="1594013174007">
+    <state x="656" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594042512147" />
+    <state x="520" y="171" key="CommitChangelistDialog2" timestamp="1594033141203">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="520" y="171" key="CommitChangelistDialog2/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594013174007" />
+    <state x="520" y="171" key="CommitChangelistDialog2/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594033141203" />
     <state x="689" y="334" width="354" height="319" key="DBNavigator.ConnectionAuthenticationDialog" timestamp="1593007127563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -410,22 +413,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="646" y="210" key="FileChooserDialogImpl/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593003675458" />
-    <state width="1389" height="296" key="GridCell.Tab.0.bottom" timestamp="1594028121745">
+    <state width="1389" height="296" key="GridCell.Tab.0.bottom" timestamp="1594042997952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1389" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594028121745" />
-    <state width="1389" height="296" key="GridCell.Tab.0.center" timestamp="1594028121745">
+    <state width="1389" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594042997952" />
+    <state width="1389" height="296" key="GridCell.Tab.0.center" timestamp="1594042997952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1389" height="296" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594028121745" />
-    <state width="1389" height="296" key="GridCell.Tab.0.left" timestamp="1594028121744">
+    <state width="1389" height="296" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594042997952" />
+    <state width="1389" height="296" key="GridCell.Tab.0.left" timestamp="1594042997952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1389" height="296" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594028121744" />
-    <state width="1389" height="296" key="GridCell.Tab.0.right" timestamp="1594028121745">
+    <state width="1389" height="296" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594042997952" />
+    <state width="1389" height="296" key="GridCell.Tab.0.right" timestamp="1594042997952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1389" height="296" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594028121745" />
+    <state width="1389" height="296" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594042997952" />
     <state width="1389" height="262" key="GridCell.Tab.1.bottom" timestamp="1594022059429">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -447,10 +450,18 @@
     </state>
     <state x="522" y="-1052" key="SettingsEditor/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1593677985496" />
     <state x="522" y="133" key="SettingsEditor/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593176438494" />
-    <state x="458" y="202" key="Vcs.Push.Dialog.v2" timestamp="1593783049555">
+    <state x="458" y="202" key="Vcs.Push.Dialog.v2" timestamp="1594033155814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="458" y="202" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593783049555" />
+    <state x="458" y="202" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594033155814" />
+    <state x="614" y="479" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594042684883">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="614" y="479" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594042684883" />
+    <state x="588" y="259" key="refactoring.ChangeSignatureDialog" timestamp="1594033633074">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="588" y="259" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594033633074" />
     <state x="353" y="247" key="run.anything.popup" timestamp="1594025405400">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -338,3 +338,33 @@ Caused by: java.lang.IllegalStateException: The file is locked: nio:C:/Users/fma
 org.h2.jdbc.JdbcSQLException: Syntax Fehler in SQL Befehl "INSERT INTO STATS (MONSTER, STAT, VALUE) VALUES ( [*]"; erwartet "), DEFAULT, NOT, EXISTS, INTERSECTS"
 Syntax error in SQL statement "INSERT INTO STATS (MONSTER, STAT, VALUE) VALUES ( [*]"; expected "), DEFAULT, NOT, EXISTS, INTERSECTS"; SQL statement:
 INSERT INTO Stats (monster, stat, value) VALUES ( [42001-197]
+2020-07-06 15:29:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Feld "PUBLIC.MONSTER.NAME" nicht gefunden
+Column "PUBLIC.MONSTER.NAME" not found; SQL statement:
+select "PUBLIC"."ITEM"."ID", "PUBLIC"."ITEM"."NAME", "PUBLIC"."ITEM"."ITEMTYPE", "PUBLIC"."ITEM"."WORTH", "PUBLIC"."ITEM"."WEIGHT" from "PUBLIC"."ITEM" where "PUBLIC"."MONSTER"."NAME" = cast(? as varchar) [42122-197]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:150)
+	at org.h2.expression.Comparison.optimize(Comparison.java:177)
+	at org.h2.command.dml.Select.prepare(Select.java:861)
+	at org.h2.command.Parser.prepareCommand(Parser.java:283)
+	at org.h2.engine.Session.prepareLocal(Session.java:611)
+	at org.h2.engine.Session.prepareCommand(Session.java:549)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1247)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:76)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:304)
+	at org.jooq.impl.ProviderEnabledConnection.prepareStatement(ProviderEnabledConnection.java:109)
+	at org.jooq.impl.SettingsEnabledConnection.prepareStatement(SettingsEnabledConnection.java:73)
+	at org.jooq.impl.AbstractResultQuery.prepare(AbstractResultQuery.java:274)
+	at org.jooq.impl.AbstractQuery.execute(AbstractQuery.java:338)
+	at org.jooq.impl.AbstractResultQuery.fetchLazy(AbstractResultQuery.java:502)
+	at org.jooq.impl.AbstractResultQuery.fetchLazy(AbstractResultQuery.java:471)
+	at org.jooq.impl.AbstractResultQuery.fetchLazyNonAutoClosing(AbstractResultQuery.java:485)
+	at org.jooq.impl.AbstractResultQuery.fetchOne(AbstractResultQuery.java:654)
+	at org.jooq.impl.AbstractResultQuery.fetchOne(AbstractResultQuery.java:659)
+	at org.jooq.impl.SelectImpl.fetchOne(SelectImpl.java:2889)
+	at org.jooq.impl.DAOImpl.fetchOne(DAOImpl.java:331)
+	at com.github.martinfrank.javarouge.objects.ItemManager.getItem(ItemManager.java:28)
+	at com.github.martinfrank.javarouge.objects.ObjectsManager.getItem(ObjectsManager.java:36)
+	at com.github.martinfrank.javarouge.objects.ObjectsManagerTest.main(ObjectsManagerTest.java:15)

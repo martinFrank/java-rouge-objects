@@ -11,6 +11,7 @@ import java.util.stream.Collectors;
 
 public class CrossReferenceCreator {
 
+    private static final String ITEM = "src/main/resources/sql/Item.sql";
     private static final String STATS = "src/main/resources/sql/Stats.sql";
     private static final String SKILLS = "src/main/resources/sql/Skills.sql";
 
@@ -29,7 +30,7 @@ public class CrossReferenceCreator {
     }
 
     private static List<String> getContent() throws IOException {
-        String[] files = {STATS, SKILLS};
+        String[] files = {STATS, SKILLS, ITEM};
         List<String> statements = new ArrayList<>();
         for (String file : files) {
             List<String> lines = Files.readAllLines(new File(file).toPath());

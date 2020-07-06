@@ -12,6 +12,9 @@ public class ObjectsManagerTest {
         MonsterPrototype monster = objectsManager.getMonster("Wasp");
         System.out.println("monster: " + monster);
 
+        ItemPrototype item = objectsManager.getItem("Steel dagger");
+        System.out.println("item: " + item);
+
         objectsManager.close();
     }
 }

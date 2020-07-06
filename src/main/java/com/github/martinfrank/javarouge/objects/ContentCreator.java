@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 
 public class ContentCreator {
 
-    private static final String ITEM = "src/main/resources/sql/Item.sql";
+
     private static final String ITEM_TYPE = "src/main/resources/sql/ItemType.sql";
     private static final String MONSTER = "src/main/resources/sql/Monster.sql";
     private static final String SKILL = "src/main/resources/sql/Skill.sql";
@@ -32,7 +32,7 @@ public class ContentCreator {
     }
 
     private static List<String> getContent() throws IOException {
-        String[] files = {ITEM, ITEM_TYPE, MONSTER, SKILL, STAT};
+        String[] files = {ITEM_TYPE, MONSTER, SKILL, STAT};
         List<String> statements = new ArrayList<>();
         for (String file : files) {
             List<String> lines = Files.readAllLines(new File(file).toPath());
