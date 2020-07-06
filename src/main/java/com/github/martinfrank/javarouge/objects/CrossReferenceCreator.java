@@ -9,13 +9,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class ContentCreator {
+public class CrossReferenceCreator {
 
-    private static final String ITEM = "src/main/resources/sql/Item.sql";
-    private static final String ITEM_TYPE = "src/main/resources/sql/ItemType.sql";
-    private static final String MONSTER = "src/main/resources/sql/Monster.sql";
-    private static final String SKILL = "src/main/resources/sql/Skill.sql";
-    private static final String STAT = "src/main/resources/sql/Stat.sql";
+    private static final String STATS = "src/main/resources/sql/Stats.sql";
+    private static final String SKILLS = "src/main/resources/sql/Skills.sql";
 
     public static void main(String[] args) {
         try (H2ConfigurationProvider configurationProvider = new H2ConfigurationProvider()) {
@@ -32,7 +29,7 @@ public class ContentCreator {
     }
 
     private static List<String> getContent() throws IOException {
-        String[] files = {ITEM, ITEM_TYPE, MONSTER, SKILL, STAT};
+        String[] files = {STATS, SKILLS};
         List<String> statements = new ArrayList<>();
         for (String file : files) {
             List<String> lines = Files.readAllLines(new File(file).toPath());

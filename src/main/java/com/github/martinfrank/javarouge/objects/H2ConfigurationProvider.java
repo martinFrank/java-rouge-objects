@@ -14,7 +14,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
 
-public class H2ConfigurationProvider implements ConfigurationProvider {
+public class H2ConfigurationProvider implements ConfigurationProvider, ConnectionProvider {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(H2ConfigurationProvider.class);
 
@@ -50,5 +50,10 @@ public class H2ConfigurationProvider implements ConfigurationProvider {
     @Override
     public Configuration getConfiguration() {
         return configuration;
+    }
+
+    @Override
+    public Connection getConnection() {
+        return connection;
     }
 }

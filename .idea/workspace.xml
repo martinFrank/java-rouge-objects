@@ -20,9 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e9f8709-7600-4957-8fbc-d03681431351" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ConnectionProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/CrossReferenceCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/DbCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/Stats.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects.trace.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ConfigurationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ConfigurationProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ContentCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ContentCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/H2ConfigurationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/H2ConfigurationProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ObjectsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ObjectsManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ObjectsManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ObjectsManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/SchemaCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/SchemaCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/dao/StatDaoExt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/dao/StatDaoExt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/sql/Item.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/Item.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/ItemType.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/ItemType.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/sql/Monster.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/Monster.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/Skill.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/Skill.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/Stat.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/Stat.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/dbschema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/dbschema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codegen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codegen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dbschema.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,62 +93,51 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592999810570" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/uml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/sql" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\resources\sql" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.github.martinfrank.javarouge.objects" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.github.martinfrank.javarouge.objects.dao" />
+      <recent name="com.github.martinfrank.javarouge.objects" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\resources\sql" />
       <recent name="C:\Users\fmar\IdeaProjects\java-rouge-objects\uml" />
       <recent name="C:\Users\fmar\IdeaProjects\java-rouge-objects" />
       <recent name="C:\Users\fmar\IdeaProjects\java-rouge-objects\src\test" />
       <recent name="C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.github.martinfrank.javarouge.objects" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\resources\sql" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.SchemaCreator (1)">
+  <component name="RunManager" selected="Application.ObjectsManagerTest">
+    <configuration name="DbCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.martinfrank.javarouge.objects.DbCreator" />
+      <module name="java-rouge-objects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.martinfrank.javarouge.objects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ObjectsManagerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.martinfrank.javarouge.objects.ObjectsManagerTest" />
       <module name="java-rouge-objects" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.github.martinfrank.javarouge.objects.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SchemaCreator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.martinfrank.javarouge.objects.SchemaCreator" />
-      <module name="java-rouge-objects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.martinfrank.javarouge.objects.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SchemaCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.martinfrank.javarouge.SchemaCreator" />
-      <module name="java-rouge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.martinfrank.javarouge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,16 +199,12 @@
     </configuration>
     <list>
       <item itemvalue="Application.ObjectsManagerTest" />
-      <item itemvalue="Application.SchemaCreator" />
-      <item itemvalue="Application.SchemaCreator (1)" />
+      <item itemvalue="Application.DbCreator" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SchemaCreator (1)" />
-        <item itemvalue="Application.SchemaCreator" />
         <item itemvalue="Application.ObjectsManagerTest" />
-        <item itemvalue="Application.SchemaCreator" />
-        <item itemvalue="Application.SchemaCreator" />
+        <item itemvalue="Application.DbCreator" />
       </list>
     </recent_temporary>
   </component>
@@ -316,7 +320,21 @@
       <option name="project" value="LOCAL" />
       <updated>1593783038362</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added content to objects db">
+      <created>1594013168962</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1594013168962</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added content to objects db">
+      <created>1594013174926</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1594013174926</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -352,18 +370,18 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="380" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593176547647">
+    <state x="380" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594027474385">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="380" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593176547647" />
+    <state x="380" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594027474385" />
     <state x="860" y="337" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593756031721">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="860" y="337" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593756031721" />
-    <state x="730" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1593491385229">
+    <state x="730" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1594027417766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="730" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593491385229" />
+    <state x="730" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594027417766" />
     <state x="483" y="3" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593688507019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -372,10 +390,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593176494223" />
-    <state x="520" y="171" key="CommitChangelistDialog2" timestamp="1593783037243">
+    <state x="520" y="171" key="CommitChangelistDialog2" timestamp="1594013174007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="520" y="171" key="CommitChangelistDialog2/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593783037243" />
+    <state x="520" y="171" key="CommitChangelistDialog2/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594013174007" />
     <state x="689" y="334" width="354" height="319" key="DBNavigator.ConnectionAuthenticationDialog" timestamp="1593007127563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -392,22 +410,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="646" y="210" key="FileChooserDialogImpl/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593003675458" />
-    <state width="1389" height="312" key="GridCell.Tab.0.bottom" timestamp="1593754100223">
+    <state width="1389" height="296" key="GridCell.Tab.0.bottom" timestamp="1594028121745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1389" height="312" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593754100223" />
-    <state width="1389" height="312" key="GridCell.Tab.0.center" timestamp="1593754100223">
+    <state width="1389" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594028121745" />
+    <state width="1389" height="296" key="GridCell.Tab.0.center" timestamp="1594028121745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1389" height="312" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593754100223" />
-    <state width="1389" height="312" key="GridCell.Tab.0.left" timestamp="1593754100223">
+    <state width="1389" height="296" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594028121745" />
+    <state width="1389" height="296" key="GridCell.Tab.0.left" timestamp="1594028121744">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1389" height="312" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593754100223" />
-    <state width="1389" height="312" key="GridCell.Tab.0.right" timestamp="1593754100223">
+    <state width="1389" height="296" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594028121744" />
+    <state width="1389" height="296" key="GridCell.Tab.0.right" timestamp="1594028121745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1389" height="312" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593754100223" />
+    <state width="1389" height="296" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594028121745" />
+    <state width="1389" height="262" key="GridCell.Tab.1.bottom" timestamp="1594022059429">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1389" height="262" key="GridCell.Tab.1.bottom/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594022059429" />
+    <state width="1389" height="262" key="GridCell.Tab.1.center" timestamp="1594022059428">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1389" height="262" key="GridCell.Tab.1.center/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594022059428" />
+    <state width="1389" height="262" key="GridCell.Tab.1.left" timestamp="1594022059428">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1389" height="262" key="GridCell.Tab.1.left/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594022059428" />
+    <state width="1389" height="262" key="GridCell.Tab.1.right" timestamp="1594022059429">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1389" height="262" key="GridCell.Tab.1.right/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594022059429" />
     <state x="522" y="-1052" key="SettingsEditor" timestamp="1593677985496">
       <screen x="0" y="-1200" width="1920" height="1160" />
     </state>
@@ -417,5 +451,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="458" y="202" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593783049555" />
+    <state x="353" y="247" key="run.anything.popup" timestamp="1594025405400">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="353" y="247" key="run.anything.popup/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594025405400" />
+    <state x="456" y="271" width="672" height="678" key="search.everywhere.popup" timestamp="1594027136921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="456" y="271" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594027136921" />
   </component>
 </project>

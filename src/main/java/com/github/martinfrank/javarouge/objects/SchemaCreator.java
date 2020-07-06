@@ -23,10 +23,6 @@ public class SchemaCreator {
         try {
             Class.forName(JDBC_DRIVER);
             List<String> lines = Files.readAllLines(new File("src/main/resources/sql/dbschema.sql").toPath());
-//            List<String> lines = Files.readAllLines(new File("dbschema.sql").toPath());
-            for (String sql : lines) {
-                System.out.println("line: " + sql);
-            }
             statements = lines.stream().filter(l -> l.trim().length() > 0 && l.trim().charAt(0) != '#').collect(Collectors.toList());
         } catch (ClassNotFoundException | IOException e) {
             System.out.println("error: " + e);

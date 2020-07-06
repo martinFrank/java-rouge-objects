@@ -1,16 +1,181 @@
-2020-07-02 13:53:33 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Tabelle "MONSTER" nicht gefunden
-Table "MONSTER" not found; SQL statement:
-create TABLE IF NOT EXISTS Stats(id INTEGER not NULL, foreign key (id) references monster(id), foreign key (id) references Stat(id)) [42102-197]
-2020-07-02 13:54:13 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Anzahl der Felder stimmt nicht überein
-Column count does not match; SQL statement:
-INSERT INTO Monster VALUES ('GridBug', 0.9,0.9) [21002-197]
+2020-07-06 09:46:18 database: flush
+org.h2.message.DbException: Allgemeiner Fehler: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]" [50000-197]
+	at org.h2.message.DbException.get(DbException.java:168)
+	at org.h2.message.DbException.convert(DbException.java:307)
+	at org.h2.mvstore.db.MVTableEngine$1.uncaughtException(MVTableEngine.java:95)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:2506)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:383)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:364)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2934)
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:155)
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:100)
+	at org.h2.engine.Database.getPageStore(Database.java:2538)
+	at org.h2.engine.Database.open(Database.java:709)
+	at org.h2.engine.Database.openDatabase(Database.java:286)
+	at org.h2.engine.Database.<init>(Database.java:280)
+	at org.h2.engine.Engine.openSession(Engine.java:66)
+	at org.h2.engine.Engine.openSession(Engine.java:179)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:157)
+	at org.h2.engine.Engine.createSession(Engine.java:140)
+	at org.h2.engine.Engine.createSession(Engine.java:28)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:351)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:103)
+	at org.h2.Driver.connect(Driver.java:69)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at com.github.martinfrank.javarouge.objects.SchemaCreator.main(SchemaCreator.java:38)
+	at com.github.martinfrank.javarouge.objects.DbCreator.main(DbCreator.java:13)
+Caused by: org.h2.jdbc.JdbcSQLException: Allgemeiner Fehler: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]" [50000-197]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
+	... 26 more
+Caused by: java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:870)
+	at org.h2.mvstore.FileStore.open(FileStore.java:173)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:350)
+	... 20 more
+2020-07-06 09:46:18 database: flush
+org.h2.message.DbException: Allgemeiner Fehler: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]" [50000-197]
+	at org.h2.message.DbException.get(DbException.java:168)
+	at org.h2.message.DbException.convert(DbException.java:307)
+	at org.h2.mvstore.db.MVTableEngine$1.uncaughtException(MVTableEngine.java:95)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:2506)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:383)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:364)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2934)
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:155)
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:100)
+	at org.h2.engine.Database.getPageStore(Database.java:2538)
+	at org.h2.engine.Database.open(Database.java:709)
+	at org.h2.engine.Database.openDatabase(Database.java:286)
+	at org.h2.engine.Database.<init>(Database.java:280)
+	at org.h2.engine.Engine.openSession(Engine.java:66)
+	at org.h2.engine.Engine.openSession(Engine.java:179)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:157)
+	at org.h2.engine.Engine.createSession(Engine.java:140)
+	at org.h2.engine.Engine.createSession(Engine.java:28)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:351)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:103)
+	at org.h2.Driver.connect(Driver.java:69)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at com.github.martinfrank.javarouge.objects.H2ConfigurationProvider.<init>(H2ConfigurationProvider.java:34)
+	at com.github.martinfrank.javarouge.objects.ContentCreator.main(ContentCreator.java:21)
+	at com.github.martinfrank.javarouge.objects.DbCreator.main(DbCreator.java:14)
+Caused by: org.h2.jdbc.JdbcSQLException: Allgemeiner Fehler: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]" [50000-197]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
+	... 27 more
+Caused by: java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:870)
+	at org.h2.mvstore.FileStore.open(FileStore.java:173)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:350)
+	... 21 more
+2020-07-06 09:46:18 database: flush
+org.h2.message.DbException: Allgemeiner Fehler: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]" [50000-197]
+	at org.h2.message.DbException.get(DbException.java:168)
+	at org.h2.message.DbException.convert(DbException.java:307)
+	at org.h2.mvstore.db.MVTableEngine$1.uncaughtException(MVTableEngine.java:95)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:2506)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:383)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:364)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2934)
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:155)
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:100)
+	at org.h2.engine.Database.getPageStore(Database.java:2538)
+	at org.h2.engine.Database.open(Database.java:709)
+	at org.h2.engine.Database.openDatabase(Database.java:286)
+	at org.h2.engine.Database.<init>(Database.java:280)
+	at org.h2.engine.Engine.openSession(Engine.java:66)
+	at org.h2.engine.Engine.openSession(Engine.java:179)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:157)
+	at org.h2.engine.Engine.createSession(Engine.java:140)
+	at org.h2.engine.Engine.createSession(Engine.java:28)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:351)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:103)
+	at org.h2.Driver.connect(Driver.java:69)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at com.github.martinfrank.javarouge.objects.H2ConfigurationProvider.<init>(H2ConfigurationProvider.java:34)
+	at com.github.martinfrank.javarouge.objects.CrossReferenceCreator.main(CrossReferenceCreator.java:17)
+	at com.github.martinfrank.javarouge.objects.DbCreator.main(DbCreator.java:15)
+Caused by: org.h2.jdbc.JdbcSQLException: Allgemeiner Fehler: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]" [50000-197]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
+	... 27 more
+Caused by: java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:870)
+	at org.h2.mvstore.FileStore.open(FileStore.java:173)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:350)
+	... 21 more
+2020-07-06 09:46:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax Fehler in SQL Befehl "INSERT INTO STATS (MONSTER, STAT, VALUE) VALUES ( [*]"; erwartet "), DEFAULT, NOT, EXISTS, INTERSECTS"
+Syntax error in SQL statement "INSERT INTO STATS (MONSTER, STAT, VALUE) VALUES ( [*]"; expected "), DEFAULT, NOT, EXISTS, INTERSECTS"; SQL statement:
+INSERT INTO Stats (monster, stat, value) VALUES ( [42001-197]
+2020-07-06 09:48:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax Fehler in SQL Befehl "INSERT INTO STATS (MONSTER, STAT, VALUE) VALUES ( [*]"; erwartet "), DEFAULT, NOT, EXISTS, INTERSECTS"
+Syntax error in SQL statement "INSERT INTO STATS (MONSTER, STAT, VALUE) VALUES ( [*]"; expected "), DEFAULT, NOT, EXISTS, INTERSECTS"; SQL statement:
+INSERT INTO Stats (monster, stat, value) VALUES ( [42001-197]
+2020-07-06 09:49:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax Fehler in SQL Befehl "INSERT INTO STATS (MONSTER, STAT, VALUE) VALUES ( [*]"; erwartet "), DEFAULT, NOT, EXISTS, INTERSECTS"
+Syntax error in SQL statement "INSERT INTO STATS (MONSTER, STAT, VALUE) VALUES ( [*]"; expected "), DEFAULT, NOT, EXISTS, INTERSECTS"; SQL statement:
+INSERT INTO Stats (monster, stat, value) VALUES ( [42001-197]
+2020-07-06 09:49:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax Fehler in SQL Befehl "INSERT INTO STATS (MONSTER, STAT, VALUE) [*]"; erwartet "DIRECT, SORTED, DEFAULT, VALUES, SET, (, WITH, SELECT, FROM"
+Syntax error in SQL statement "INSERT INTO STATS (MONSTER, STAT, VALUE) [*]"; expected "DIRECT, SORTED, DEFAULT, VALUES, SET, (, WITH, SELECT, FROM"; SQL statement:
+INSERT INTO Stats (monster, stat, value) [42001-197]
+2020-07-06 09:51:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax Fehler in SQL Befehl "INSERT INTO STATS (MONSTER, STAT, VALUE) [*]"; erwartet "DIRECT, SORTED, DEFAULT, VALUES, SET, (, WITH, SELECT, FROM"
+Syntax error in SQL statement "INSERT INTO STATS (MONSTER, STAT, VALUE) [*]"; expected "DIRECT, SORTED, DEFAULT, VALUES, SET, (, WITH, SELECT, FROM"; SQL statement:
+INSERT INTO Stats (monster, stat, value) [42001-197]
+2020-07-06 09:54:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax Fehler in SQL Befehl "INSERT INTO STATS (MONSTER, STAT, VALUE) VALUES ( [*]"; erwartet "), DEFAULT, NOT, EXISTS, INTERSECTS"
+Syntax error in SQL statement "INSERT INTO STATS (MONSTER, STAT, VALUE) VALUES ( [*]"; expected "), DEFAULT, NOT, EXISTS, INTERSECTS"; SQL statement:
+INSERT INTO Stats (monster, stat, value) VALUES ( [42001-197]
+2020-07-06 09:54:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax Fehler in SQL Befehl "INSERT INTO STATS (MONSTER, STAT, VALUE) SET ([*] "
+Syntax error in SQL statement "INSERT INTO STATS (MONSTER, STAT, VALUE) SET ([*] "; SQL statement:
+INSERT INTO Stats (monster, stat, value) SET ( [42000-197]
+2020-07-06 09:55:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax Fehler in SQL Befehl "INSERT INTO STATS (MONSTER, STAT, VALUE) VALUES ( [*]"; erwartet "), DEFAULT, NOT, EXISTS, INTERSECTS"
+Syntax error in SQL statement "INSERT INTO STATS (MONSTER, STAT, VALUE) VALUES ( [*]"; expected "), DEFAULT, NOT, EXISTS, INTERSECTS"; SQL statement:
+INSERT INTO Stats (monster, stat, value) VALUES ( [42001-197]
+2020-07-06 09:57:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax Fehler in SQL Befehl "SELECT MONSTER AS MONSTER.[*]ID FROM MONSTER MONSTER WHERE MONSTER.NAME = 'GridBug' "
+Syntax error in SQL statement "SELECT MONSTER AS MONSTER.[*]ID FROM MONSTER MONSTER WHERE MONSTER.NAME = 'GridBug' "; SQL statement:
+SELECT monster as monster.id FROM Monster monster WHERE monster.name = 'GridBug' [42000-197]
+2020-07-06 09:57:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax Fehler in SQL Befehl "SELECT MONSTER AS MONSTER.[*]ID FROM MONSTER MONSTER WHERE MONSTER.NAME == 'GridBug' "
+Syntax error in SQL statement "SELECT MONSTER AS MONSTER.[*]ID FROM MONSTER MONSTER WHERE MONSTER.NAME == 'GridBug' "; SQL statement:
+SELECT monster as monster.id FROM Monster monster WHERE monster.name == 'GridBug' [42000-197]
+2020-07-06 09:57:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax Fehler in SQL Befehl "SELECT MONSTER AS MONSTER.[*]ID FROM MONSTER MONSTER WHERE MONSTER.NAME EQ 'GridBug' "
+Syntax error in SQL statement "SELECT MONSTER AS MONSTER.[*]ID FROM MONSTER MONSTER WHERE MONSTER.NAME EQ 'GridBug' "; SQL statement:
+SELECT monster as monster.id FROM Monster monster WHERE monster.name eq 'GridBug' [42000-197]
+2020-07-06 09:57:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax Fehler in SQL Befehl "SELECT MONSTER AS MONSTER.[*]ID FROM MONSTER MONSTER WHERE MONSTER.NAME EQ 'GridBug' "
+Syntax error in SQL statement "SELECT MONSTER AS MONSTER.[*]ID FROM MONSTER MONSTER WHERE MONSTER.NAME EQ 'GridBug' "; SQL statement:
+SELECT monster as monster.id FROM Monster monster WHERE monster.name eq 'GridBug' [42000-197]
+2020-07-06 09:58:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax Fehler in SQL Befehl "SELECT ID AS MONSTER.[*]ID FROM MONSTER MONSTER "
+Syntax error in SQL statement "SELECT ID AS MONSTER.[*]ID FROM MONSTER MONSTER "; SQL statement:
+SELECT id as monster.id FROM Monster monster [42000-197]
+2020-07-06 09:58:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Feld "MONSTER" nicht gefunden
+Column "MONSTER" not found; SQL statement:
+SELECT id FROM Monster monster WHERE monster = 'GridBug' [42122-197]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
 	at org.h2.message.DbException.get(DbException.java:179)
 	at org.h2.message.DbException.get(DbException.java:155)
-	at org.h2.message.DbException.get(DbException.java:144)
-	at org.h2.command.dml.Insert.prepare(Insert.java:306)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:150)
+	at org.h2.expression.Comparison.optimize(Comparison.java:177)
+	at org.h2.command.dml.Select.prepare(Select.java:861)
 	at org.h2.command.Parser.prepareCommand(Parser.java:283)
 	at org.h2.engine.Session.prepareLocal(Session.java:611)
 	at org.h2.engine.Session.prepareCommand(Session.java:549)
@@ -23,3 +188,153 @@ INSERT INTO Monster VALUES ('GridBug', 0.9,0.9) [21002-197]
 	at net.sourceforge.squirrel_sql.client.session.SQLExecuterTask.run(SQLExecuterTask.java:137)
 	at net.sourceforge.squirrel_sql.fw.util.TaskExecuter.run(TaskExecuter.java:82)
 	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-07-06 09:58:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Feld "MONSTER" nicht gefunden
+Column "MONSTER" not found; SQL statement:
+SELECT id FROM Monster monster WHERE monster = 'GridBug' [42122-197]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:150)
+	at org.h2.expression.Comparison.optimize(Comparison.java:177)
+	at org.h2.command.dml.Select.prepare(Select.java:861)
+	at org.h2.command.Parser.prepareCommand(Parser.java:283)
+	at org.h2.engine.Session.prepareLocal(Session.java:611)
+	at org.h2.engine.Session.prepareCommand(Session.java:549)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1247)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:217)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:205)
+	at net.sourceforge.squirrel_sql.client.session.StatementWrapper.execute(StatementWrapper.java:168)
+	at net.sourceforge.squirrel_sql.client.session.SQLExecuterTask.processQuery(SQLExecuterTask.java:361)
+	at net.sourceforge.squirrel_sql.client.session.SQLExecuterTask.runDirect(SQLExecuterTask.java:214)
+	at net.sourceforge.squirrel_sql.client.session.SQLExecuterTask.run(SQLExecuterTask.java:137)
+	at net.sourceforge.squirrel_sql.fw.util.TaskExecuter.run(TaskExecuter.java:82)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-07-06 09:58:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax Fehler in SQL Befehl "SELECT ID FROM MONSTER MONSTER WHERE MONSTER[*] == 'GridBug' "
+Syntax error in SQL statement "SELECT ID FROM MONSTER MONSTER WHERE MONSTER[*] == 'GridBug' "; SQL statement:
+SELECT id FROM Monster monster WHERE monster == 'GridBug' [42000-197]
+2020-07-06 09:59:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax Fehler in SQL Befehl "SELECT ID FROM MONSTER MONSTER WHERE .[*]NAME = 'GridBug' "; erwartet "NOT, EXISTS, INTERSECTS, SELECT, FROM, WITH"
+Syntax error in SQL statement "SELECT ID FROM MONSTER MONSTER WHERE .[*]NAME = 'GridBug' "; expected "NOT, EXISTS, INTERSECTS, SELECT, FROM, WITH"; SQL statement:
+SELECT id FROM Monster monster WHERE .name = 'GridBug' [42001-197]
+2020-07-06 10:01:49 database: flush
+org.h2.message.DbException: Allgemeiner Fehler: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]" [50000-197]
+	at org.h2.message.DbException.get(DbException.java:168)
+	at org.h2.message.DbException.convert(DbException.java:307)
+	at org.h2.mvstore.db.MVTableEngine$1.uncaughtException(MVTableEngine.java:95)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:2506)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:383)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:364)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2934)
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:155)
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:100)
+	at org.h2.engine.Database.getPageStore(Database.java:2538)
+	at org.h2.engine.Database.open(Database.java:709)
+	at org.h2.engine.Database.openDatabase(Database.java:286)
+	at org.h2.engine.Database.<init>(Database.java:280)
+	at org.h2.engine.Engine.openSession(Engine.java:66)
+	at org.h2.engine.Engine.openSession(Engine.java:179)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:157)
+	at org.h2.engine.Engine.createSession(Engine.java:140)
+	at org.h2.engine.Engine.createSession(Engine.java:28)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:351)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:103)
+	at org.h2.Driver.connect(Driver.java:69)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at com.github.martinfrank.javarouge.objects.SchemaCreator.main(SchemaCreator.java:38)
+	at com.github.martinfrank.javarouge.objects.DbCreator.main(DbCreator.java:13)
+Caused by: org.h2.jdbc.JdbcSQLException: Allgemeiner Fehler: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]" [50000-197]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
+	... 26 more
+Caused by: java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:870)
+	at org.h2.mvstore.FileStore.open(FileStore.java:173)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:350)
+	... 20 more
+2020-07-06 10:01:49 database: flush
+org.h2.message.DbException: Allgemeiner Fehler: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]" [50000-197]
+	at org.h2.message.DbException.get(DbException.java:168)
+	at org.h2.message.DbException.convert(DbException.java:307)
+	at org.h2.mvstore.db.MVTableEngine$1.uncaughtException(MVTableEngine.java:95)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:2506)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:383)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:364)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2934)
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:155)
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:100)
+	at org.h2.engine.Database.getPageStore(Database.java:2538)
+	at org.h2.engine.Database.open(Database.java:709)
+	at org.h2.engine.Database.openDatabase(Database.java:286)
+	at org.h2.engine.Database.<init>(Database.java:280)
+	at org.h2.engine.Engine.openSession(Engine.java:66)
+	at org.h2.engine.Engine.openSession(Engine.java:179)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:157)
+	at org.h2.engine.Engine.createSession(Engine.java:140)
+	at org.h2.engine.Engine.createSession(Engine.java:28)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:351)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:103)
+	at org.h2.Driver.connect(Driver.java:69)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at com.github.martinfrank.javarouge.objects.H2ConfigurationProvider.<init>(H2ConfigurationProvider.java:34)
+	at com.github.martinfrank.javarouge.objects.ContentCreator.main(ContentCreator.java:21)
+	at com.github.martinfrank.javarouge.objects.DbCreator.main(DbCreator.java:14)
+Caused by: org.h2.jdbc.JdbcSQLException: Allgemeiner Fehler: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]" [50000-197]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
+	... 27 more
+Caused by: java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:870)
+	at org.h2.mvstore.FileStore.open(FileStore.java:173)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:350)
+	... 21 more
+2020-07-06 10:01:49 database: flush
+org.h2.message.DbException: Allgemeiner Fehler: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]" [50000-197]
+	at org.h2.message.DbException.get(DbException.java:168)
+	at org.h2.message.DbException.convert(DbException.java:307)
+	at org.h2.mvstore.db.MVTableEngine$1.uncaughtException(MVTableEngine.java:95)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:2506)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:383)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:364)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2934)
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:155)
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:100)
+	at org.h2.engine.Database.getPageStore(Database.java:2538)
+	at org.h2.engine.Database.open(Database.java:709)
+	at org.h2.engine.Database.openDatabase(Database.java:286)
+	at org.h2.engine.Database.<init>(Database.java:280)
+	at org.h2.engine.Engine.openSession(Engine.java:66)
+	at org.h2.engine.Engine.openSession(Engine.java:179)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:157)
+	at org.h2.engine.Engine.createSession(Engine.java:140)
+	at org.h2.engine.Engine.createSession(Engine.java:28)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:351)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:103)
+	at org.h2.Driver.connect(Driver.java:69)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at com.github.martinfrank.javarouge.objects.H2ConfigurationProvider.<init>(H2ConfigurationProvider.java:34)
+	at com.github.martinfrank.javarouge.objects.CrossReferenceCreator.main(CrossReferenceCreator.java:17)
+	at com.github.martinfrank.javarouge.objects.DbCreator.main(DbCreator.java:15)
+Caused by: org.h2.jdbc.JdbcSQLException: Allgemeiner Fehler: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]" [50000-197]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
+	... 27 more
+Caused by: java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:870)
+	at org.h2.mvstore.FileStore.open(FileStore.java:173)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:350)
+	... 21 more
+2020-07-06 10:02:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax Fehler in SQL Befehl "INSERT INTO STATS (MONSTER, STAT, VALUE) VALUES ( [*]"; erwartet "), DEFAULT, NOT, EXISTS, INTERSECTS"
+Syntax error in SQL statement "INSERT INTO STATS (MONSTER, STAT, VALUE) VALUES ( [*]"; expected "), DEFAULT, NOT, EXISTS, INTERSECTS"; SQL statement:
+INSERT INTO Stats (monster, stat, value) VALUES ( [42001-197]

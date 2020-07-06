@@ -1,21 +1,19 @@
-#No-Ref-Table
-#create TABLE IF NOT EXISTS Monster (id INTEGER not NULL, name VARCHAR(255), difficulty DOUBLE, experience DOUBLE, PRIMARY KEY ( id ))
 
-create TABLE IF NOT EXISTS Monster (id IDENTITY NOT NULL PRIMARY KEY, name VARCHAR(255), difficulty DOUBLE, experience DOUBLE)
-create TABLE IF NOT EXISTS Stat (id IDENTITY not NULL, name VARCHAR(255), PRIMARY KEY ( id ))
-create TABLE IF NOT EXISTS Skill (id IDENTITY not NULL, name VARCHAR(255), PRIMARY KEY ( id ))
-create TABLE IF NOT EXISTS Item (id IDENTITY not NULL, name VARCHAR(255), worth DOUBLE, weight DOUBLE, PRIMARY KEY ( id ))
-create TABLE IF NOT EXISTS ItemType (id IDENTITY not NULL, name VARCHAR(255), PRIMARY KEY ( id ))
+CREATE TABLE IF NOT EXISTS Monster (id IDENTITY NOT NULL PRIMARY KEY, name VARCHAR(255), difficulty DOUBLE, experience DOUBLE)
+CREATE TABLE IF NOT EXISTS Stat (id IDENTITY NOT NULL, name VARCHAR(255), PRIMARY KEY ( id ))
+CREATE TABLE IF NOT EXISTS Skill (id IDENTITY NOT NULL, name VARCHAR(255), PRIMARY KEY ( id ))
+CREATE TABLE IF NOT EXISTS Item (id IDENTITY NOT NULL, name VARCHAR(255), worth DOUBLE, weight DOUBLE, PRIMARY KEY ( id ))
+CREATE TABLE IF NOT EXISTS ItemType (id IDENTITY NOT NULL, name VARCHAR(255), PRIMARY KEY ( id ))
 
-#Ref-Tables
-create TABLE IF NOT EXISTS Stats(id IDENTITY not NULL, foreign key (id) references monster(id), foreign key (id) references Stat(id))
-create TABLE IF NOT EXISTS Skills(id IDENTITY not NULL, foreign key (id) references monster(id), foreign key (id) references Skill(id))
-create TABLE IF NOT EXISTS StartEquipment(id IDENTITY not NULL, foreign key (id) references monster(id), foreign key (id) references Item(id))
-create TABLE IF NOT EXISTS Drops(id IDENTITY not NULL, foreign key (id) references monster(id), foreign key (id) references Item(id))
+CREATE TABLE IF NOT EXISTS Stats(id IDENTITY NOT NULL, monster LONG NOT NULL, stat LONG NOT NULL, value DOUBLE, FOREIGN KEY (monster) REFERENCES Monster(id) , FOREIGN KEY (stat) REFERENCES Stat(id) )
+CREATE TABLE IF NOT EXISTS Skills(id IDENTITY NOT NULL, monster LONG NOT NULL, skill LONG NOT NULL, value DOUBLE, FOREIGN KEY (monster) REFERENCES monster(id), FOREIGN KEY (skill) REFERENCES Skill(id))
+CREATE TABLE IF NOT EXISTS StartEquipment(id IDENTITY NOT NULL, monster LONG NOT NULL, item LONG NOT NULL, chance DOUBLE, FOREIGN KEY (monster) REFERENCES monster(id), FOREIGN KEY (item) REFERENCES Item(id))
+CREATE TABLE IF NOT EXISTS Drops(id IDENTITY NOT NULL, monster LONG NOT NULL, item LONG NOT NULL, chance DOUBLE, FOREIGN KEY (monster) REFERENCES monster(id), FOREIGN KEY (item) REFERENCES Item(id))
 
-create TABLE IF NOT EXISTS SkillRequirements(id IDENTITY not NULL, foreign key (id) references Skill(id), foreign key (id) references Stat(id))
-create TABLE IF NOT EXISTS SkillModifer(id IDENTITY not NULL, foreign key (id) references Item(id), foreign key (id) references Skill(id))
-create TABLE IF NOT EXISTS StatModifer(id IDENTITY not NULL, foreign key (id) references Item(id), foreign key (id) references Stat(id))
+#todo
+CREATE TABLE IF NOT EXISTS SkillRequirements(id IDENTITY NOT NULL, FOREIGN KEY (id) REFERENCES Skill(id), FOREIGN KEY (id) REFERENCES Stat(id))
+CREATE TABLE IF NOT EXISTS SkillModifer(id IDENTITY NOT NULL, FOREIGN KEY (id) REFERENCES Item(id), FOREIGN KEY (id) REFERENCES Skill(id))
+CREATE TABLE IF NOT EXISTS StatModifer(id IDENTITY NOT NULL, FOREIGN KEY (id) REFERENCES Item(id), FOREIGN KEY (id) REFERENCES Stat(id))
 
-create TABLE IF NOT EXISTS ItemTypes(id IDENTITY not NULL, foreign key (id) references Item(id), foreign key (id) references ItemType(id))
+CREATE TABLE IF NOT EXISTS ItemTypes(id IDENTITY NOT NULL, FOREIGN KEY (id) REFERENCES Item(id), FOREIGN KEY (id) REFERENCES ItemType(id))
 

@@ -1,6 +1,6 @@
-INSERT INTO Stat (name) VALUES ('health')
-INSERT INTO Stat (name) VALUES ('stamina')
+INSERT INTO Stat (name) VALUES ('Health')
+INSERT INTO Stat (name) VALUES ('Stamina')
 
-INSERT INTO Stat (name) VALUES ('strength')
-INSERT INTO Stat (name) VALUES ('intelligence')
-INSERT INTO Stat (name) VALUES ('dexterity')
+INSERT INTO Stat (name) VALUES ('Strength')
+INSERT INTO Stat (name) VALUES ('Intelligence')
+INSERT INTO Stat (name) VALUES ('Dexterity')

@@ -7,4 +7,5 @@ import java.io.Closeable;
 public interface ConfigurationProvider extends Closeable {
 
     Configuration getConfiguration();
+
 }
