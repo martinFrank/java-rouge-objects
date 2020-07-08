@@ -1,11 +1,10 @@
 package com.github.martinfrank.javarouge.objects;
 
-import com.github.martinfrank.javarouge.objects.generated.tables.pojos.Item;
-import com.github.martinfrank.javarouge.objects.generated.tables.pojos.Monster;
-import com.github.martinfrank.javarouge.objects.generated.tables.pojos.Skill;
-import com.github.martinfrank.javarouge.objects.generated.tables.pojos.Stat;
+import com.github.martinfrank.javarouge.objects.generated.tables.pojos.*;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class MonsterPrototype {
@@ -15,6 +14,10 @@ public class MonsterPrototype {
     private Map<Skill, Double> skills = new HashMap<>();
     private Map<Item, Double> drops = new HashMap<>();
     private Map<Item, Double> startEquipment = new HashMap<>();
+    private List<Item> intrinsicEquipment = new ArrayList<>();
+
+
+    private List<Equipmentslottype> equipmentSlots = new ArrayList<>();
 
     public MonsterPrototype(Monster monster) {
         this.monster = monster;
@@ -56,6 +59,22 @@ public class MonsterPrototype {
         this.startEquipment = startEquipment;
     }
 
+    public List<Item> getIntrinsicEquipment() {
+        return intrinsicEquipment;
+    }
+
+    public void setIntrinsicEquipment(List<Item> intrinsicEquipment) {
+        this.intrinsicEquipment = intrinsicEquipment;
+    }
+
+    public List<Equipmentslottype> getEquipmentSlots() {
+        return equipmentSlots;
+    }
+
+    public void setEquipmentSlots(List<Equipmentslottype> equipmentSlots) {
+        this.equipmentSlots = equipmentSlots;
+    }
+
     @Override
     public String toString() {
         return "MonsterPrototype{" +
@@ -64,6 +83,8 @@ public class MonsterPrototype {
                 ", skills=" + skills +
                 ", drops=" + drops +
                 ", startEquipment=" + startEquipment +
+                ", intrinsicEquipment=" + intrinsicEquipment +
+                ", equipmentSlots=" + equipmentSlots +
                 '}';
     }
 }

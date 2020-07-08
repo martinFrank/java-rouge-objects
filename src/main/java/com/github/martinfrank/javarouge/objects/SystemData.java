@@ -1,9 +1,9 @@
 package com.github.martinfrank.javarouge.objects;
 
-import com.github.martinfrank.javarouge.objects.dao.ItemtypeDaoExt;
+import com.github.martinfrank.javarouge.objects.dao.EquipmentslottypeDaoExt;
 import com.github.martinfrank.javarouge.objects.dao.SkillDaoExt;
 import com.github.martinfrank.javarouge.objects.dao.StatDaoExt;
-import com.github.martinfrank.javarouge.objects.generated.tables.pojos.Itemtype;
+import com.github.martinfrank.javarouge.objects.generated.tables.pojos.Equipmentslottype;
 import com.github.martinfrank.javarouge.objects.generated.tables.pojos.Skill;
 import com.github.martinfrank.javarouge.objects.generated.tables.pojos.Stat;
 
@@ -14,23 +14,24 @@ public class SystemData {
     //Systemdata
     private final List<Stat> stat;
     private final List<Skill> skill;
-    private final List<Itemtype> itemTypes;
+    private final List<Equipmentslottype> slotType;
 
     public SystemData(ConfigurationProvider configurationProvider) {
         stat = new StatDaoExt(configurationProvider.getConfiguration()).fetchAll();
         skill = new SkillDaoExt(configurationProvider.getConfiguration()).fetchAll();
-        itemTypes = new ItemtypeDaoExt(configurationProvider.getConfiguration()).fetchAll();
+        slotType = new EquipmentslottypeDaoExt(configurationProvider.getConfiguration()).fetchAll();
     }
 
-    public Stat statById(long id) {
+    public Equipmentslottype getEquipmentTypeSlotById(Long id) {
+        return slotType.stream().filter(s -> s.getId() == id).findAny().orElse(null);
+    }
+
+    public Stat getStatById(long id) {
         return stat.stream().filter(s -> s.getId() == id).findAny().orElse(null);
     }
 
-    public Skill skillById(long id) {
+    public Skill getSkillById(long id) {
         return skill.stream().filter(s -> s.getId() == id).findAny().orElse(null);
     }
 
-    public Itemtype getItemTypById(Long id) {
-        return itemTypes.stream().filter(s -> s.getId() == id).findAny().orElse(null);
-    }
 }

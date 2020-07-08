@@ -1,15 +1,15 @@
 package com.github.martinfrank.javarouge.objects;
 
 import com.github.martinfrank.javarouge.objects.generated.Tables;
-import com.github.martinfrank.javarouge.objects.generated.tables.daos.ItemDao;
-import com.github.martinfrank.javarouge.objects.generated.tables.daos.SkillmodiferDao;
-import com.github.martinfrank.javarouge.objects.generated.tables.daos.StatmodiferDao;
+import com.github.martinfrank.javarouge.objects.generated.tables.daos.*;
+import com.github.martinfrank.javarouge.objects.generated.tables.pojos.Equipmentslottype;
 import com.github.martinfrank.javarouge.objects.generated.tables.pojos.Item;
-import com.github.martinfrank.javarouge.objects.generated.tables.pojos.Itemtype;
 import com.github.martinfrank.javarouge.objects.generated.tables.pojos.Skill;
 import com.github.martinfrank.javarouge.objects.generated.tables.pojos.Stat;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class ItemManager {
@@ -18,34 +18,57 @@ public class ItemManager {
     private final SkillmodiferDao skillModifierDao;
     private final StatmodiferDao statModifierDao;
     private final ItemDao itemDao;
+    private final SuitableslotsDao suitableslotsDao;
+    private final ApplicableskillsDao applicableskillsDao;
 
     public ItemManager(ConfigurationProvider configurationProvider, SystemData systemData) {
         this.systemData = systemData;
         itemDao = new ItemDao(configurationProvider.getConfiguration());
         skillModifierDao = new SkillmodiferDao(configurationProvider.getConfiguration());
         statModifierDao = new StatmodiferDao(configurationProvider.getConfiguration());
+        suitableslotsDao = new SuitableslotsDao(configurationProvider.getConfiguration());
+        applicableskillsDao = new ApplicableskillsDao(configurationProvider.getConfiguration());
     }
 
     public ItemPrototype getItem(String name) {
+        //FIXME Lookup Table
         Item item = itemDao.fetchOne(Tables.ITEM.NAME, name);
-        Itemtype itemtype = systemData.getItemTypById(item.getItemtype());
-        ItemPrototype itemPrototype = new ItemPrototype(item, itemtype);
+        ItemPrototype itemPrototype = new ItemPrototype(item);
         addStatModifier(itemPrototype);
         addSkillModifier(itemPrototype);
+        addSuitableSlots(itemPrototype);
+        addApplicableSkills(itemPrototype);
         return itemPrototype;
+    }
+
+    private void addSuitableSlots(ItemPrototype itemPrototype) {
+        List<Equipmentslottype> equipmentSlots = new ArrayList<>();
+        suitableslotsDao.fetchByItem(itemPrototype.getItem().getId()).forEach(s -> equipmentSlots.add(systemData.getEquipmentTypeSlotById(s.getEquipmentslot())));
+        itemPrototype.setSuitableSlots(equipmentSlots);
+    }
+
+    private void addApplicableSkills(ItemPrototype itemPrototype) {
+        List<Skill> applicableSkills = new ArrayList<>();
+        applicableskillsDao.fetchByItem(itemPrototype.getItem().getId()).forEach(s -> applicableSkills.add(systemData.getSkillById(s.getSkill())));
+        itemPrototype.setApplicableSkills(applicableSkills);
     }
 
     private void addSkillModifier(ItemPrototype itemPrototype) {
         final Map<Skill, Modifier> skillModifier = new HashMap<>();
         skillModifierDao.fetchByItem(itemPrototype.getItem().getId()).forEach(
-                s -> skillModifier.put(systemData.skillById(s.getSkill()), new Modifier(s.getOperator(), s.getValue())));
+                s -> skillModifier.put(systemData.getSkillById(s.getSkill()), new Modifier(s.getOperator(), s.getValue())));
         itemPrototype.setSkillModifier(skillModifier);
     }
 
     private void addStatModifier(ItemPrototype itemPrototype) {
         final Map<Stat, Modifier> statModifier = new HashMap<>();
         statModifierDao.fetchByItem(itemPrototype.getItem().getId()).forEach(
-                s -> statModifier.put(systemData.statById(s.getStat()), new Modifier(s.getOperator(), s.getValue())));
+                s -> statModifier.put(systemData.getStatById(s.getStat()), new Modifier(s.getOperator(), s.getValue())));
         itemPrototype.setStatModifier(statModifier);
+    }
+
+    public Item getItemById(Long id) {
+        //FIXME Lookup Table
+        return itemDao.fetchOne(Tables.ITEM.ID, id);
     }
 }

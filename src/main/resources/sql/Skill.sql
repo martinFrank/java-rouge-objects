@@ -1,7 +1,7 @@
-INSERT INTO Skill (name) VALUES ('Short blade')
-INSERT INTO Skill (name) VALUES ('Long blade')
-INSERT INTO Skill (name) VALUES ('Bite')
-INSERT INTO Skill (name) VALUES ('Sting')
+INSERT INTO Skill (name) VALUES ('Short blade' )
+INSERT INTO Skill (name) VALUES ('Long blade' )
+INSERT INTO Skill (name) VALUES ('Bite' )
+INSERT INTO Skill (name) VALUES ('Sting' )
 
 INSERT INTO Skill (name) VALUES ('Sneaking')
 INSERT INTO Skill (name) VALUES ('Alchemy')

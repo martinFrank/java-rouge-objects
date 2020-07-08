@@ -9,11 +9,17 @@ public class ObjectsManagerTest {
 
         ObjectsManager objectsManager = new ObjectsManager();
 
-        MonsterPrototype monster = objectsManager.getMonster("Wasp");
-        System.out.println("monster: " + monster);
+        MonsterPrototype wasp = objectsManager.getMonster("Wasp");
+        System.out.println("monster: " + wasp);
+
+        MonsterPrototype goblin = objectsManager.getMonster("Goblin");
+        System.out.println("monster: " + goblin);
 
         ItemPrototype item = objectsManager.getItem("Steel dagger");
         System.out.println("item: " + item);
+
+        ItemPrototype honeyPod = objectsManager.getItem("Honey pod");
+        System.out.println("honeyPod: " + honeyPod);
 
         objectsManager.close();
     }

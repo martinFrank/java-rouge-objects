@@ -12,10 +12,12 @@ import java.util.stream.Collectors;
 public class ContentCreator {
 
 
-    private static final String ITEM_TYPE = "src/main/resources/sql/ItemType.sql";
-    private static final String MONSTER = "src/main/resources/sql/Monster.sql";
+    private static final String EQUIPMENT_TYPE_SLOT = "src/main/resources/sql/Equipmentslottype.sql";
     private static final String SKILL = "src/main/resources/sql/Skill.sql";
     private static final String STAT = "src/main/resources/sql/Stat.sql";
+
+    private static final String MONSTER = "src/main/resources/sql/Monster.sql";
+    private static final String ITEM = "src/main/resources/sql/Item.sql";
 
     public static void main(String[] args) {
         try (H2ConfigurationProvider configurationProvider = new H2ConfigurationProvider()) {
@@ -32,7 +34,7 @@ public class ContentCreator {
     }
 
     private static List<String> getContent() throws IOException {
-        String[] files = {ITEM_TYPE, MONSTER, SKILL, STAT};
+        String[] files = {SKILL, STAT, EQUIPMENT_TYPE_SLOT, MONSTER, ITEM};
         List<String> statements = new ArrayList<>();
         for (String file : files) {
             List<String> lines = Files.readAllLines(new File(file).toPath());

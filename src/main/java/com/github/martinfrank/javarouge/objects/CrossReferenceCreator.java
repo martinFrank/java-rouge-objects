@@ -11,9 +11,18 @@ import java.util.stream.Collectors;
 
 public class CrossReferenceCreator {
 
-    private static final String ITEM = "src/main/resources/sql/Item.sql";
+
     private static final String STATS = "src/main/resources/sql/Stats.sql";
     private static final String SKILLS = "src/main/resources/sql/Skills.sql";
+    private static final String START_EQUIPMENT = "src/main/resources/sql/StartEquipment.sql";
+    private static final String DROPS = "src/main/resources/sql/Drops.sql";
+    private static final String INTRINSIC = "src/main/resources/sql/IntrinsicEquipment.sql";
+    private static final String EQUIPMENT_SLOTS = "src/main/resources/sql/EquipmentSlots.sql";
+
+    private static final String STAT_MODIFIER = "src/main/resources/sql/StatModifier.sql";
+    private static final String SKILL_MODIFIER = "src/main/resources/sql/SkillModifier.sql";
+    private static final String SUITABLE_SLOTS = "src/main/resources/sql/SuitableSlots.sql";
+    private static final String APPLICABLE_SKILL = "src/main/resources/sql/ApplicableSkill.sql";
 
     public static void main(String[] args) {
         try (H2ConfigurationProvider configurationProvider = new H2ConfigurationProvider()) {
@@ -30,7 +39,7 @@ public class CrossReferenceCreator {
     }
 
     private static List<String> getContent() throws IOException {
-        String[] files = {STATS, SKILLS, ITEM};
+        String[] files = {STATS, SKILLS, START_EQUIPMENT, DROPS, INTRINSIC, EQUIPMENT_SLOTS, STAT_MODIFIER, SKILL_MODIFIER, SUITABLE_SLOTS, APPLICABLE_SKILL};
         List<String> statements = new ArrayList<>();
         for (String file : files) {
             List<String> lines = Files.readAllLines(new File(file).toPath());

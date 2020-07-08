@@ -368,3 +368,132 @@ select "PUBLIC"."ITEM"."ID", "PUBLIC"."ITEM"."NAME", "PUBLIC"."ITEM"."ITEMTYPE",
 	at com.github.martinfrank.javarouge.objects.ItemManager.getItem(ItemManager.java:28)
 	at com.github.martinfrank.javarouge.objects.ObjectsManager.getItem(ObjectsManager.java:36)
 	at com.github.martinfrank.javarouge.objects.ObjectsManagerTest.main(ObjectsManagerTest.java:15)
+2020-07-06 16:32:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Anzahl der Felder stimmt nicht überein
+Column count does not match; SQL statement:
+INSERT INTO ItemType (name) VALUES ('Short blade', (SELECT equipmentslottype.id FROM Equipmentslottype equipmentslottype WHERE equipmentslottype.name = 'Any hand')) [21002-197]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.command.dml.Insert.prepare(Insert.java:306)
+	at org.h2.command.Parser.prepareCommand(Parser.java:283)
+	at org.h2.engine.Session.prepareLocal(Session.java:611)
+	at org.h2.engine.Session.prepareCommand(Session.java:549)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1247)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:165)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126)
+	at com.github.martinfrank.javarouge.objects.CrossReferenceCreator.main(CrossReferenceCreator.java:24)
+	at com.github.martinfrank.javarouge.objects.DbCreator.main(DbCreator.java:15)
+2020-07-07 10:23:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabelle "ITEMTYPE" nicht gefunden
+Table "ITEMTYPE" not found; SQL statement:
+INSERT INTO Item (name, worth, weight) VALUES ('Steel dagger', (SELECT itemtype.id FROM Itemtype itemtype WHERE itemtype.name = 'Short blade') ,11.2, 352.2) [42102-197]
+2020-07-07 10:35:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Feld "CHANCE" nicht gefunden
+Column "CHANCE" not found; SQL statement:
+INSERT INTO IntrinsicEquipment (monster, item, chance) VALUES ( (SELECT monster.id FROM Monster monster WHERE monster.name = 'Wasp'), (SELECT item.id FROM Item item WHERE item.name = 'Wasp mandibles')) [42122-197]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.table.Table.getColumn(Table.java:682)
+	at org.h2.command.Parser.parseColumn(Parser.java:936)
+	at org.h2.command.Parser.parseColumnList(Parser.java:920)
+	at org.h2.command.Parser.parseInsertGivenTable(Parser.java:1258)
+	at org.h2.command.Parser.parseInsert(Parser.java:1222)
+	at org.h2.command.Parser.parsePrepared(Parser.java:431)
+	at org.h2.command.Parser.parse(Parser.java:335)
+	at org.h2.command.Parser.parse(Parser.java:307)
+	at org.h2.command.Parser.prepareCommand(Parser.java:278)
+	at org.h2.engine.Session.prepareLocal(Session.java:611)
+	at org.h2.engine.Session.prepareCommand(Session.java:549)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1247)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:165)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126)
+	at com.github.martinfrank.javarouge.objects.CrossReferenceCreator.main(CrossReferenceCreator.java:26)
+	at com.github.martinfrank.javarouge.objects.DbCreator.main(DbCreator.java:15)
+2020-07-08 15:56:04 database: flush
+org.h2.message.DbException: Allgemeiner Fehler: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]" [50000-197]
+	at org.h2.message.DbException.get(DbException.java:168)
+	at org.h2.message.DbException.convert(DbException.java:307)
+	at org.h2.mvstore.db.MVTableEngine$1.uncaughtException(MVTableEngine.java:95)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:2506)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:383)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:364)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2934)
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:155)
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:100)
+	at org.h2.engine.Database.getPageStore(Database.java:2538)
+	at org.h2.engine.Database.open(Database.java:709)
+	at org.h2.engine.Database.openDatabase(Database.java:286)
+	at org.h2.engine.Database.<init>(Database.java:280)
+	at org.h2.engine.Engine.openSession(Engine.java:66)
+	at org.h2.engine.Engine.openSession(Engine.java:179)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:157)
+	at org.h2.engine.Engine.createSession(Engine.java:140)
+	at org.h2.engine.Engine.createSession(Engine.java:28)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:351)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:103)
+	at org.h2.Driver.connect(Driver.java:69)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at com.github.martinfrank.javarouge.objects.H2ConfigurationProvider.<init>(H2ConfigurationProvider.java:34)
+	at com.github.martinfrank.javarouge.objects.ObjectsManager.<init>(ObjectsManager.java:20)
+	at com.github.martinfrank.javarouge.objects.ObjectsManagerTest.main(ObjectsManagerTest.java:10)
+Caused by: org.h2.jdbc.JdbcSQLException: Allgemeiner Fehler: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]" [50000-197]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
+	... 27 more
+Caused by: java.lang.IllegalStateException: The file is locked: nio:C:/Users/fmar/IdeaProjects/java-rouge-objects/objects.mv.db [1.4.197/7]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:870)
+	at org.h2.mvstore.FileStore.open(FileStore.java:173)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:350)
+	... 21 more
+2020-07-08 16:02:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Feld "SLOT" nicht gefunden
+Column "SLOT" not found; SQL statement:
+create TABLE IF NOT EXISTS SuitableSlots(id IDENTITY NOT NULL, item LONG NOT NULL, equipmentSlot LONG NOT NULL, FOREIGN KEY (item) REFERENCES Item(id), FOREIGN KEY (slot) REFERENCES EquipmentSlotType(id)) [42122-197]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.table.Table.getColumn(Table.java:682)
+	at org.h2.table.IndexColumn.mapColumns(IndexColumn.java:74)
+	at org.h2.command.ddl.AlterTableAddConstraint.tryUpdate(AlterTableAddConstraint.java:212)
+	at org.h2.command.ddl.AlterTableAddConstraint.update(AlterTableAddConstraint.java:78)
+	at org.h2.command.ddl.CommandWithColumns.createConstraints(CommandWithColumns.java:88)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:122)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:102)
+	at org.h2.command.Command.executeUpdate(Command.java:261)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:169)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126)
+	at com.github.martinfrank.javarouge.objects.SchemaCreator.main(SchemaCreator.java:37)
+	at com.github.martinfrank.javarouge.objects.DbCreator.main(DbCreator.java:13)
+2020-07-08 16:02:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabelle "SUITABLESLOTS" nicht gefunden
+Table "SUITABLESLOTS" not found; SQL statement:
+INSERT INTO SuitableSlots (item, slot) VALUES ( (SELECT item.id FROM Item item WHERE item.name = 'Leather boots'), (SELECT slot.id FROM Equipmentslottype slot WHERE slot.name = 'Head')) [42102-197]
+2020-07-08 16:03:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Feld "SLOT" nicht gefunden
+Column "SLOT" not found; SQL statement:
+INSERT INTO SuitableSlots (item, slot) VALUES ( (SELECT item.id FROM Item item WHERE item.name = 'Leather boots'), (SELECT slot.id FROM Equipmentslottype slot WHERE slot.name = 'Head')) [42122-197]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.table.Table.getColumn(Table.java:682)
+	at org.h2.command.Parser.parseColumn(Parser.java:936)
+	at org.h2.command.Parser.parseColumnList(Parser.java:920)
+	at org.h2.command.Parser.parseInsertGivenTable(Parser.java:1258)
+	at org.h2.command.Parser.parseInsert(Parser.java:1222)
+	at org.h2.command.Parser.parsePrepared(Parser.java:431)
+	at org.h2.command.Parser.parse(Parser.java:335)
+	at org.h2.command.Parser.parse(Parser.java:307)
+	at org.h2.command.Parser.prepareCommand(Parser.java:278)
+	at org.h2.engine.Session.prepareLocal(Session.java:611)
+	at org.h2.engine.Session.prepareCommand(Session.java:549)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1247)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:165)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126)
+	at com.github.martinfrank.javarouge.objects.CrossReferenceCreator.main(CrossReferenceCreator.java:32)
+	at com.github.martinfrank.javarouge.objects.DbCreator.main(DbCreator.java:15)
