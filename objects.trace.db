@@ -1,0 +1,31 @@
+2020-07-13 11:45:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Skalar-Unterabfrage enthält mehr als eine Zeile
+Scalar subquery contains more than one row; SQL statement:
+INSERT INTO SkillModifer (item, skill, operator, value) VALUES (
+    (SELECT item.id FROM Item item WHERE item.name = 'Leather boots'),
+    (SELECT skill.id FROM Skill skill WHERE skill.name = 'Sneaking'), 'Minus', 1.2) -- ((SELECT
+    ITEM.ID
+FROM PUBLIC.ITEM ITEM
+    /* PUBLIC.ITEM.tableScan */
+    /* scanCount: 11 */
+WHERE ITEM.NAME = 'Leather boots'), (SELECT
+    SKILL.ID
+FROM PUBLIC.SKILL SKILL
+    /* PUBLIC.SKILL.tableScan */
+WHERE SKILL.NAME = 'Sneaking'), 'Minus', 1.2) [90053-197]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.expression.Subquery.getValue(Subquery.java:48)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:166)
+	at org.h2.command.dml.Insert.update(Insert.java:134)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:102)
+	at org.h2.command.Command.executeUpdate(Command.java:261)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:233)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:205)
+	at org.h2.tools.RunScript.execute(RunScript.java:172)
+	at com.github.martinfrank.javarouge.objects.csv.SqlExecutor.insertData(SqlExecutor.java:43)
+	at com.github.martinfrank.javarouge.objects.csv.SqlExecutor.createDb(SqlExecutor.java:34)
+	at com.github.martinfrank.javarouge.objects.csv.CsvDbGenerator.generate(CsvDbGenerator.java:36)
+	at com.github.martinfrank.javarouge.objects.csv.CsvDbGenerator.main(CsvDbGenerator.java:17)

@@ -1,0 +1,5 @@
+INSERT INTO StartEquipment (monster, item, chance) VALUES (
+    (SELECT monster.id FROM Monster monster WHERE monster.name = '%s'),
+    (SELECT item.id FROM Item item WHERE item.name = '%s'), %s);
+
+

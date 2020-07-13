@@ -1,0 +1,1 @@
+INSERT INTO Item (name, worth, weight) VALUES ('%s', %s, %s);

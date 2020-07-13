@@ -1,0 +1,5 @@
+INSERT INTO StatModifer (item, stat, operator, value) VALUES (
+    (SELECT item.id FROM Item item WHERE item.name = '%s'),
+    (SELECT stat.id FROM Stat stat WHERE stat.name = '%s'), '%s', %s);
+
+

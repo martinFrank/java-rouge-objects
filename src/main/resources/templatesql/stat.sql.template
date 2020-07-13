@@ -1,0 +1,1 @@
+INSERT INTO Stat (name) VALUES ('%s');
