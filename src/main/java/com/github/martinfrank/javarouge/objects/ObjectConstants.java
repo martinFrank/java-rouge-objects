@@ -9,14 +9,14 @@ import com.github.martinfrank.javarouge.objects.generated.tables.pojos.Stat;
 
 import java.util.List;
 
-public class SystemData {
+public class ObjectConstants {
 
     //Systemdata
     private final List<Stat> stat;
     private final List<Skill> skill;
     private final List<Equipmentslottype> slotType;
 
-    public SystemData(ConfigurationProvider configurationProvider) {
+    public ObjectConstants(ConfigurationProvider configurationProvider) {
         stat = new StatDaoExt(configurationProvider.getConfiguration()).fetchAll();
         skill = new SkillDaoExt(configurationProvider.getConfiguration()).fetchAll();
         slotType = new EquipmentslottypeDaoExt(configurationProvider.getConfiguration()).fetchAll();

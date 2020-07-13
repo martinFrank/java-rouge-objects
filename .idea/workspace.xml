@@ -20,39 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e9f8709-7600-4957-8fbc-d03681431351" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/dao/EquipmentslottypeDaoExt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/ApplicableSkill.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/Drops.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/EquipmentSlots.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/Equipmentslottype.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/IntrinsicEquipment.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/SkillModifier.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/StartEquipment.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/StatModifier.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/SuitableSlots.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/java-rouge-objects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/java-rouge-objects.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/objects.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/objects.trace.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ContentCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ContentCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/CrossReferenceCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/CrossReferenceCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects.trace.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/DbCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/DbCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/H2ConfigurationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/H2ConfigurationProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ItemManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ItemManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ItemPrototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ItemPrototype.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/MonsterManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/MonsterManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/MonsterPrototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/MonsterPrototype.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ObjectsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ObjectsManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ObjectsManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ObjectsManagerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/SystemData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/SystemData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/dao/ItemtypeDaoExt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/Item.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/Item.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/ItemType.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/Monster.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/Monster.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/Skill.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/Skill.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/Skills.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/Skills.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/Stats.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/Stats.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/SystemData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ObjectConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/ApplicableSkill.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/ApplicableSkill.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/SkillModifier.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/SkillModifier.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/SuitableSlots.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/SuitableSlots.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/sql/dbschema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/dbschema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codegen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codegen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dbconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dbconfig.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.mv.db" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/uml/erd.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/uml/erd.uxf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,38 +92,69 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592999810570" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/sql" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templatesql" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="RainbowCSV.Settings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\resources\csvdata" />
+      <recent name="C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\resources" />
       <recent name="C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\resources\sql" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.github.martinfrank.javarouge.objects" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\resources\templatesql" />
+      <recent name="C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\resources\csvdata" />
+      <recent name="C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\resources\gensql" />
+      <recent name="C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\resources\csv" />
+      <recent name="C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\resources\csv\schema" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.github.martinfrank.javarouge.objects.dao" />
       <recent name="com.github.martinfrank.javarouge.objects" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\resources\sql" />
-      <recent name="C:\Users\fmar\IdeaProjects\java-rouge-objects\uml" />
-      <recent name="C:\Users\fmar\IdeaProjects\java-rouge-objects" />
-      <recent name="C:\Users\fmar\IdeaProjects\java-rouge-objects\src\test" />
-      <recent name="C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.github.martinfrank.javarouge.objects.csv" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DbCreator">
+  <component name="RunManager" selected="Application.CsvDbGenerator">
+    <configuration name="CsvDbGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.martinfrank.javarouge.objects.csv.CsvDbGenerator" />
+      <module name="java-rouge-objects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.martinfrank.javarouge.objects.csv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomCsvReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.martinfrank.javarouge.objects.CustomCsvReader" />
+      <module name="java-rouge-objects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.martinfrank.javarouge.objects.csv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DbCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.martinfrank.javarouge.objects.DbCreator" />
       <module name="java-rouge-objects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.martinfrank.javarouge.objects.*" />
+          <option name="PATTERN" value="com.github.martinfrank.javarouge.objects.csv.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,7 +167,7 @@
       <module name="java-rouge-objects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.martinfrank.javarouge.objects.*" />
+          <option name="PATTERN" value="com.github.martinfrank.javarouge.objects.csv.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,7 +180,7 @@
       <module name="java-rouge-objects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.martinfrank.javarouge.objects.*" />
+          <option name="PATTERN" value="com.github.martinfrank.javarouge.objects.csv.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,10 +231,14 @@
       <item itemvalue="Application.SchemaCreator" />
       <item itemvalue="Application.ObjectsManagerTest" />
       <item itemvalue="Application.DbCreator" />
+      <item itemvalue="Application.CustomCsvReader" />
+      <item itemvalue="Application.CsvDbGenerator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CsvDbGenerator" />
         <item itemvalue="Application.DbCreator" />
+        <item itemvalue="Application.CustomCsvReader" />
         <item itemvalue="Application.ObjectsManagerTest" />
         <item itemvalue="Application.SchemaCreator" />
       </list>
@@ -362,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594043025388</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added item management">
+      <created>1594217337815</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1594217337815</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -403,26 +432,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="380" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594027474385" />
-    <state x="860" y="337" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593756031721">
+    <state x="860" y="337" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594626900416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="860" y="337" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593756031721" />
-    <state x="730" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1594216762951">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="860" y="-824" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594621669826" />
+    <state x="860" y="337" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594626900416" />
+    <state x="730" y="-914" key="#com.intellij.ide.util.MemberChooser" timestamp="1594626142274">
+      <screen x="0" y="-1200" width="1920" height="1160" />
     </state>
+    <state x="730" y="-914" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594626142274" />
     <state x="730" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594216762951" />
-    <state x="483" y="3" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593688507019">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="483" y="-1200" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1594618970981">
+      <screen x="0" y="-1200" width="1920" height="1160" />
     </state>
-    <state x="483" y="3" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593688507019" />
-    <state x="656" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594042512147">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="483" y="-1200" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594618970981" />
+    <state x="483" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594279131961" />
+    <state x="656" y="-891" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594618825245">
+      <screen x="0" y="-1200" width="1920" height="1160" />
     </state>
+    <state x="656" y="-891" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594618825245" />
     <state x="656" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594042512147" />
-    <state x="520" y="171" key="CommitChangelistDialog2" timestamp="1594043023852">
+    <state x="520" y="171" key="CommitChangelistDialog2" timestamp="1594217334524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="520" y="171" key="CommitChangelistDialog2/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594043023852" />
+    <state x="520" y="171" key="CommitChangelistDialog2/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594217334524" />
     <state x="689" y="334" width="354" height="319" key="DBNavigator.ConnectionAuthenticationDialog" timestamp="1593007127563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -435,51 +468,64 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="661" y="359" key="DBNavigator.ResultSetRecordViewerDialog/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593004345059" />
+    <state x="216" y="270" width="1249" height="635" key="DiffContextDialog" timestamp="1594627946837">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="216" y="-899" width="1249" height="709" key="DiffContextDialog/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594625529163" />
+    <state x="216" y="270" width="1249" height="635" key="DiffContextDialog/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594627946837" />
     <state x="646" y="210" key="FileChooserDialogImpl" timestamp="1593003675458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="646" y="210" key="FileChooserDialogImpl/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593003675458" />
-    <state width="1389" height="296" key="GridCell.Tab.0.bottom" timestamp="1594217297454">
+    <state width="1389" height="297" key="GridCell.Tab.0.bottom" timestamp="1594633554441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1389" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594217297454" />
-    <state width="1389" height="296" key="GridCell.Tab.0.center" timestamp="1594217297454">
+    <state width="1389" height="297" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594624753711" />
+    <state width="1389" height="297" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594633554441" />
+    <state width="1389" height="297" key="GridCell.Tab.0.center" timestamp="1594633554441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1389" height="296" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594217297454" />
-    <state width="1389" height="296" key="GridCell.Tab.0.left" timestamp="1594217297454">
+    <state width="1389" height="297" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594624753711" />
+    <state width="1389" height="297" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594633554441" />
+    <state width="1389" height="297" key="GridCell.Tab.0.left" timestamp="1594633554441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1389" height="296" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594217297454" />
-    <state width="1389" height="296" key="GridCell.Tab.0.right" timestamp="1594217297454">
+    <state width="1389" height="297" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594624753710" />
+    <state width="1389" height="297" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594633554441" />
+    <state width="1389" height="297" key="GridCell.Tab.0.right" timestamp="1594633554441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1389" height="296" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594217297454" />
-    <state width="1389" height="262" key="GridCell.Tab.1.bottom" timestamp="1594216563203">
+    <state width="1389" height="297" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594624753711" />
+    <state width="1389" height="297" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594633554441" />
+    <state width="1389" height="262" key="GridCell.Tab.1.bottom" timestamp="1594279364318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1389" height="262" key="GridCell.Tab.1.bottom/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594216563203" />
-    <state width="1389" height="262" key="GridCell.Tab.1.center" timestamp="1594216563202">
+    <state width="1389" height="262" key="GridCell.Tab.1.bottom/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594279364318" />
+    <state width="1389" height="262" key="GridCell.Tab.1.center" timestamp="1594279364318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1389" height="262" key="GridCell.Tab.1.center/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594216563202" />
-    <state width="1389" height="262" key="GridCell.Tab.1.left" timestamp="1594216563202">
+    <state width="1389" height="262" key="GridCell.Tab.1.center/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594279364318" />
+    <state width="1389" height="262" key="GridCell.Tab.1.left" timestamp="1594279364317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1389" height="262" key="GridCell.Tab.1.left/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594216563202" />
-    <state width="1389" height="262" key="GridCell.Tab.1.right" timestamp="1594216563203">
+    <state width="1389" height="262" key="GridCell.Tab.1.left/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594279364317" />
+    <state width="1389" height="262" key="GridCell.Tab.1.right" timestamp="1594279364318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1389" height="262" key="GridCell.Tab.1.right/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594216563203" />
-    <state x="522" y="-1052" key="SettingsEditor" timestamp="1593677985496">
+    <state width="1389" height="262" key="GridCell.Tab.1.right/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594279364318" />
+    <state x="561" y="200" key="RollbackChangesDialog" timestamp="1594632866875">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="561" y="200" key="RollbackChangesDialog/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594632866875" />
+    <state x="522" y="-1052" key="SettingsEditor" timestamp="1594279701524">
       <screen x="0" y="-1200" width="1920" height="1160" />
     </state>
-    <state x="522" y="-1052" key="SettingsEditor/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1593677985496" />
+    <state x="522" y="-1052" key="SettingsEditor/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594279701524" />
     <state x="522" y="133" key="SettingsEditor/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593176438494" />
-    <state x="458" y="202" key="Vcs.Push.Dialog.v2" timestamp="1594043027382">
+    <state x="458" y="202" key="Vcs.Push.Dialog.v2" timestamp="1594217341658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="458" y="202" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594043027382" />
+    <state x="458" y="202" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594217341658" />
     <state x="614" y="479" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594042684883">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -488,13 +534,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="588" y="259" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594033633074" />
-    <state x="353" y="247" key="run.anything.popup" timestamp="1594047247623">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="353" y="-924" key="run.anything.popup" timestamp="1594281524519">
+      <screen x="0" y="-1200" width="1920" height="1160" />
     </state>
+    <state x="353" y="-924" key="run.anything.popup/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594281524519" />
     <state x="353" y="247" key="run.anything.popup/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594047247623" />
-    <state x="456" y="271" width="672" height="678" key="search.everywhere.popup" timestamp="1594045789440">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="456" y="-898" width="672" height="757" key="search.everywhere.popup" timestamp="1594623267261">
+      <screen x="0" y="-1200" width="1920" height="1160" />
     </state>
+    <state x="456" y="-898" width="672" height="757" key="search.everywhere.popup/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594623267261" />
     <state x="456" y="271" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594045789440" />
   </component>
 </project>

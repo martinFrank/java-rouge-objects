@@ -18,9 +18,9 @@ public class ObjectsManager implements Closeable {
 
     public ObjectsManager() throws IOException, ClassNotFoundException, SQLException {
         configurationProvider = new H2ConfigurationProvider();
-        final SystemData systemData = new SystemData(configurationProvider);
-        itemManager = new ItemManager(configurationProvider, systemData);
-        monsterManager = new MonsterManager(configurationProvider, itemManager, systemData);
+        final ObjectConstants objectConstants = new ObjectConstants(configurationProvider);
+        itemManager = new ItemManager(configurationProvider, objectConstants);
+        monsterManager = new MonsterManager(configurationProvider, itemManager, objectConstants);
     }
 
     @Override

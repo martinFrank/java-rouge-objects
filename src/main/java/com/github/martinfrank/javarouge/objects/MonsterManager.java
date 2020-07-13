@@ -14,7 +14,7 @@ import java.util.Map;
 
 public class MonsterManager {
 
-    private final SystemData systemData;
+    private final ObjectConstants objectConstants;
     private final MonsterDao monsterDao;
     private final StatsDao statsDao;
     private final SkillsDao skillsDao;
@@ -25,8 +25,8 @@ public class MonsterManager {
     private final ItemManager itemManager;
 
 
-    public MonsterManager(ConfigurationProvider configurationProvider, ItemManager itemManager, SystemData systemData) {
-        this.systemData = systemData;
+    public MonsterManager(ConfigurationProvider configurationProvider, ItemManager itemManager, ObjectConstants objectConstants) {
+        this.objectConstants = objectConstants;
         this.itemManager = itemManager;
         monsterDao = new MonsterDao(configurationProvider.getConfiguration());
         statsDao = new StatsDao(configurationProvider.getConfiguration());
@@ -52,7 +52,7 @@ public class MonsterManager {
 
     private void addEquipmentSlots(MonsterPrototype monsterPrototype) {
         List<Equipmentslottype> equipmentSlots = new ArrayList<>();
-        equipmentslotsDao.fetchByMonster(monsterPrototype.getMonster().getId()).forEach(s -> equipmentSlots.add(systemData.getEquipmentTypeSlotById(s.getEquipmentslot())));
+        equipmentslotsDao.fetchByMonster(monsterPrototype.getMonster().getId()).forEach(s -> equipmentSlots.add(objectConstants.getEquipmentTypeSlotById(s.getEquipmentslot())));
         monsterPrototype.setEquipmentSlots(equipmentSlots);
     }
 
@@ -76,13 +76,13 @@ public class MonsterManager {
 
     private void addSkills(MonsterPrototype monsterPrototype) {
         final Map<Skill, Double> monsterSkill = new HashMap<>();
-        skillsDao.fetchByMonster(monsterPrototype.getMonster().getId()).forEach(s -> monsterSkill.put(systemData.getSkillById(s.getSkill()), s.getValue()));
+        skillsDao.fetchByMonster(monsterPrototype.getMonster().getId()).forEach(s -> monsterSkill.put(objectConstants.getSkillById(s.getSkill()), s.getValue()));
         monsterPrototype.setSkills(monsterSkill);
     }
 
     private void addStats(MonsterPrototype monsterPrototype) {
         final Map<Stat, Double> monsterStat = new HashMap<>();
-        statsDao.fetchByMonster(monsterPrototype.getMonster().getId()).forEach(s -> monsterStat.put(systemData.getStatById(s.getStat()), s.getValue()));
+        statsDao.fetchByMonster(monsterPrototype.getMonster().getId()).forEach(s -> monsterStat.put(objectConstants.getStatById(s.getStat()), s.getValue()));
         monsterPrototype.setStats(monsterStat);
     }
 

@@ -6,6 +6,7 @@ C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfra
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\Skills.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\records\SkillmodiferRecord.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\daos\EquipmentslotsDao.java
+C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\csv\SqlExecutor.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\H2ConfigurationProvider.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\Stats.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\records\StartequipmentRecord.java
@@ -25,8 +26,10 @@ C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfra
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\Suitableslots.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\pojos\Equipmentslots.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\pojos\Monster.java
+C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\csv\CsvDbGenerator.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\pojos\Stat.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\MonsterManager.java
+C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\csv\CsvUtility.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\Intrinsicequipment.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\pojos\Suitableslots.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\Drops.java
@@ -41,6 +44,7 @@ C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfra
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\Modifier.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\records\StatRecord.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\daos\DropsDao.java
+C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\csv\SqlGenerator.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\records\MonsterRecord.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\records\SuitableslotsRecord.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\pojos\Skill.java
@@ -56,11 +60,13 @@ C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfra
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\pojos\Drops.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\dao\StatDaoExt.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\pojos\Equipmentslottype.java
+C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\ObjectConstants.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\ObjectsManager.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\SchemaCreator.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\records\DropsRecord.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\Keys.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\ObjectsManagerTest.java
+C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\csv\SourceFileProvider.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\records\SkillsRecord.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\ItemPrototype.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\records\IntrinsicequipmentRecord.java
@@ -69,7 +75,6 @@ C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfra
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\records\EquipmentslotsRecord.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\Startequipment.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\Stat.java
-C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\SystemData.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\records\StatsRecord.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\daos\ItemDao.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\Item.java
@@ -77,6 +82,7 @@ C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfra
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\pojos\Item.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\CrossReferenceCreator.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\daos\MonsterDao.java
+C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\CustomCsvReader.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\DefaultCatalog.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\pojos\Intrinsicequipment.java
 C:\Users\fmar\IdeaProjects\java-rouge-objects\src\main\java\com\github\martinfrank\javarouge\objects\generated\tables\Equipmentslots.java

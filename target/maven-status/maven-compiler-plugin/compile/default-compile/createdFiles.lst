@@ -1,9 +1,10 @@
-com\github\martinfrank\javarouge\objects\SystemData.class
 com\github\martinfrank\javarouge\objects\dao\EquipmentslottypeDaoExt.class
 com\github\martinfrank\javarouge\objects\generated\tables\Drops.class
 com\github\martinfrank\javarouge\objects\ConnectionProvider.class
 com\github\martinfrank\javarouge\objects\generated\tables\pojos\Skill.class
 com\github\martinfrank\javarouge\objects\generated\tables\daos\SuitableslotsDao.class
+com\github\martinfrank\javarouge\objects\csv\SqlExecutor.class
+com\github\martinfrank\javarouge\objects\csv\CsvUtility.class
 com\github\martinfrank\javarouge\objects\generated\tables\records\StatRecord.class
 com\github\martinfrank\javarouge\objects\generated\DefaultCatalog.class
 com\github\martinfrank\javarouge\objects\generated\tables\pojos\Equipmentslots.class
@@ -38,7 +39,9 @@ com\github\martinfrank\javarouge\objects\ObjectsManagerTest.class
 com\github\martinfrank\javarouge\objects\dao\StatDaoExt.class
 com\github\martinfrank\javarouge\objects\H2ConfigurationProvider.class
 com\github\martinfrank\javarouge\objects\generated\tables\Applicableskills.class
+com\github\martinfrank\javarouge\objects\csv\SourceFileProvider.class
 com\github\martinfrank\javarouge\objects\generated\tables\records\EquipmentslottypeRecord.class
+com\github\martinfrank\javarouge\objects\csv\SqlGenerator.class
 com\github\martinfrank\javarouge\objects\generated\tables\records\StatsRecord.class
 com\github\martinfrank\javarouge\objects\generated\tables\daos\EquipmentslottypeDao.class
 com\github\martinfrank\javarouge\objects\ContentCreator.class
@@ -54,6 +57,7 @@ com\github\martinfrank\javarouge\objects\generated\tables\records\SkillmodiferRe
 com\github\martinfrank\javarouge\objects\generated\tables\Skills.class
 com\github\martinfrank\javarouge\objects\generated\Keys$Identities0.class
 com\github\martinfrank\javarouge\objects\generated\tables\pojos\Statmodifer.class
+com\github\martinfrank\javarouge\objects\CustomCsvReader.class
 com\github\martinfrank\javarouge\objects\dao\SkillDaoExt.class
 com\github\martinfrank\javarouge\objects\MonsterManager.class
 com\github\martinfrank\javarouge\objects\MonsterPrototype.class
@@ -61,7 +65,9 @@ com\github\martinfrank\javarouge\objects\generated\tables\pojos\Startequipment.c
 com\github\martinfrank\javarouge\objects\generated\tables\records\StatmodiferRecord.class
 com\github\martinfrank\javarouge\objects\generated\tables\daos\EquipmentslotsDao.class
 com\github\martinfrank\javarouge\objects\generated\Public.class
+com\github\martinfrank\javarouge\objects\ObjectConstants.class
 com\github\martinfrank\javarouge\objects\generated\tables\Equipmentslots.class
+com\github\martinfrank\javarouge\objects\csv\CsvDbGenerator.class
 com\github\martinfrank\javarouge\objects\generated\tables\daos\SkillDao.class
 com\github\martinfrank\javarouge\objects\generated\tables\Skillmodifer.class
 com\github\martinfrank\javarouge\objects\generated\tables\Stats.class

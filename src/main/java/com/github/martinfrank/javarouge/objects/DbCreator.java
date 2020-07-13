@@ -8,7 +8,9 @@ public class DbCreator {
         File h2dbFile = new File("objects.mv.db");
         if (h2dbFile.exists()) {
             System.out.println("exists");
-            h2dbFile.delete();
+            if (h2dbFile.delete()) {
+                System.out.println("successfully deleted");
+            }
         }
         SchemaCreator.main(null);
         ContentCreator.main(null);

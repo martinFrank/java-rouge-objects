@@ -21,11 +21,13 @@ public class H2ConfigurationProvider implements ConfigurationProvider, Connectio
     private final Connection connection;
     private final Configuration configuration;
 
+
     public H2ConfigurationProvider() throws SQLException, IOException, ClassNotFoundException {
         Properties properties = new Properties();
         properties.load(new FileReader(new File("src/main/resources/dbconfig.properties")));
         String jdbcDriver = properties.getProperty("com.github.martinfrank.javarouge.objects.db.driver");
         String dbUrl = properties.getProperty("com.github.martinfrank.javarouge.objects.db.url");
+
         String user = properties.getProperty("com.github.martinfrank.javarouge.objects.db.user");
         String pass = properties.getProperty("com.github.martinfrank.javarouge.objects.db.pass");
         String dialect = properties.getProperty("com.github.martinfrank.javarouge.objects.db.dialect");
@@ -56,4 +58,5 @@ public class H2ConfigurationProvider implements ConfigurationProvider, Connectio
     public Connection getConnection() {
         return connection;
     }
+
 }
