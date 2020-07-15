@@ -1,5 +1,5 @@
 INSERT INTO EquipmentSlots (monster, equipmentSlot) VALUES (
-    (SELECT monster.id FROM Monster monster WHERE monster.name = '%s'),
+    (SELECT monster.id FROM MonsterSample monster WHERE monster.name = '%s'),
     (SELECT slot.id FROM Equipmentslottype slot WHERE slot.name = '%s'));
 
 

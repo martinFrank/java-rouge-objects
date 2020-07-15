@@ -9,22 +9,22 @@ import java.util.Map;
 
 public class MonsterPrototype {
 
-    private final Monster monster;
+    private final Monstersample monstersample;
     private Map<Stat, Double> stats = new HashMap<>();
     private Map<Skill, Double> skills = new HashMap<>();
-    private Map<Item, Double> drops = new HashMap<>();
-    private Map<Item, Double> startEquipment = new HashMap<>();
-    private List<Item> intrinsicEquipment = new ArrayList<>();
+    private Map<Itemsample, Double> drops = new HashMap<>();
+    private Map<Itemsample, Double> startEquipment = new HashMap<>();
+    private List<Itemsample> intrinsicEquipment = new ArrayList<>();
 
 
     private List<Equipmentslottype> equipmentSlots = new ArrayList<>();
 
-    public MonsterPrototype(Monster monster) {
-        this.monster = monster;
+    public MonsterPrototype(Monstersample monster) {
+        this.monstersample = monster;
     }
 
-    public Monster getMonster() {
-        return monster;
+    public Monstersample getMonstersample() {
+        return monstersample;
     }
 
     public Map<Stat, Double> getStats() {
@@ -43,27 +43,27 @@ public class MonsterPrototype {
         this.skills = skills;
     }
 
-    public Map<Item, Double> getDrops() {
+    public Map<Itemsample, Double> getDrops() {
         return drops;
     }
 
-    public void setDrops(Map<Item, Double> drops) {
+    public void setDrops(Map<Itemsample, Double> drops) {
         this.drops = drops;
     }
 
-    public Map<Item, Double> getStartEquipment() {
+    public Map<Itemsample, Double> getStartEquipment() {
         return startEquipment;
     }
 
-    public void setStartEquipment(Map<Item, Double> startEquipment) {
+    public void setStartEquipment(Map<Itemsample, Double> startEquipment) {
         this.startEquipment = startEquipment;
     }
 
-    public List<Item> getIntrinsicEquipment() {
+    public List<Itemsample> getIntrinsicEquipment() {
         return intrinsicEquipment;
     }
 
-    public void setIntrinsicEquipment(List<Item> intrinsicEquipment) {
+    public void setIntrinsicEquipment(List<Itemsample> intrinsicEquipment) {
         this.intrinsicEquipment = intrinsicEquipment;
     }
 
@@ -78,7 +78,7 @@ public class MonsterPrototype {
     @Override
     public String toString() {
         return "MonsterPrototype{" +
-                "monster=" + monster +
+                "monster=" + monstersample +
                 ", stats=" + stats +
                 ", skills=" + skills +
                 ", drops=" + drops +

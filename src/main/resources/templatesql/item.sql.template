@@ -1,1 +1,1 @@
-INSERT INTO Item (name, worth, weight) VALUES ('%s', %s, %s);
+INSERT INTO ItemSample (name, worth, weight) VALUES ('%s', %s, %s);

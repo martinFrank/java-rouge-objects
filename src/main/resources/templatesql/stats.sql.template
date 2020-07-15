@@ -1,3 +1,3 @@
 INSERT INTO Stats (monster, stat, value) VALUES (
-    (SELECT monster.id FROM Monster monster WHERE monster.name = '%s'),
+    (SELECT monster.id FROM MonsterSample monster WHERE monster.name = '%s'),
     (SELECT stat.id FROM Stat stat WHERE stat.name = '%s'), %s);

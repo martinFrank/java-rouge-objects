@@ -1,98 +1,98 @@
-<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>1080</x><y>200</y><w>120</w><h>60</h></coordinates><panel_attributes>Stats
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>1080</x><y>210</y><w>120</w><h>60</h></coordinates><panel_attributes>Stats
 --
 id: long
-value: double</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1080</x><y>80</y><w>120</w><h>70</h></coordinates><panel_attributes>&lt;&lt;Enum&gt;&gt;
+value: double</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1080</x><y>90</y><w>120</w><h>70</h></coordinates><panel_attributes>&lt;&lt;Enum&gt;&gt;
 Stat
 --
 id: long
 name: varchar(255)
 
-bg=0xff22ff</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>750</x><y>200</y><w>130</w><h>60</h></coordinates><panel_attributes>StartEquipment
+bg=0xff22ff</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>750</x><y>210</y><w>130</w><h>60</h></coordinates><panel_attributes>StartEquipment
 --
 id: long
-chance: double (0..1)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>540</x><y>200</y><w>120</w><h>90</h></coordinates><panel_attributes>Item
+chance: double (0..1)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>540</x><y>210</y><w>120</w><h>90</h></coordinates><panel_attributes>ItemSample
 --
 id: long
 name: varchar(255)
 worth: double
 weight: double
 
-bg=0x00ff00</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>510</x><y>90</y><w>150</w><h>70</h></coordinates><panel_attributes>StatModifier
+bg=0x00ff00</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>510</x><y>100</y><w>150</w><h>70</h></coordinates><panel_attributes>StatModifier
 --
 id: long
 operator: varchar (ENUM)
-value: double</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>200</y><w>120</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;100;10</additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>150</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>90</y><w>450</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;430;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1190</x><y>370</y><w>110</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;90;10</additional_attributes></element><element><id>Relation</id><coordinates><x>870</x><y>200</y><w>70</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;50;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1120</x><y>140</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1100</x><y>370</y><w>100</w><h>60</h></coordinates><panel_attributes>Skills
+value: double</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>210</y><w>120</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;100;10</additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>160</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>100</y><w>450</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;430;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1190</x><y>380</y><w>110</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;90;10</additional_attributes></element><element><id>Relation</id><coordinates><x>870</x><y>210</y><w>70</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;50;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1120</x><y>150</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1100</x><y>380</y><w>100</w><h>60</h></coordinates><panel_attributes>Skills
 --
 id: long
 value: double
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1280</x><y>360</y><w>130</w><h>90</h></coordinates><panel_attributes>&lt;&lt;Enum&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1280</x><y>370</y><w>130</w><h>90</h></coordinates><panel_attributes>&lt;&lt;Enum&gt;&gt;
 Skill
 --
 id: long
 name: varchar(255)
 
-bg=0xff22ff</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1030</x><y>280</y><w>170</w><h>110</h></coordinates><panel_attributes>lt=-
+bg=0xff22ff</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1030</x><y>290</y><w>170</w><h>110</h></coordinates><panel_attributes>lt=-
 m1=1
-m2=1..n</panel_attributes><additional_attributes>10;10;10;40;130;40;130;90</additional_attributes></element><element><id>Relation</id><coordinates><x>1050</x><y>200</y><w>50</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;30;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>920</x><y>200</y><w>140</w><h>90</h></coordinates><panel_attributes>Monster
+m2=1..n</panel_attributes><additional_attributes>10;10;10;40;130;40;130;90</additional_attributes></element><element><id>Relation</id><coordinates><x>1050</x><y>210</y><w>50</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;30;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>920</x><y>210</y><w>140</w><h>90</h></coordinates><panel_attributes>MonsterSample
 --
 id: long
 name: varchar (255)
 difficulty: double
 exp: double
 
-bg=0x00ff00</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>740</x><y>270</y><w>140</w><h>60</h></coordinates><panel_attributes>Drops
+bg=0x00ff00</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>740</x><y>280</y><w>140</w><h>60</h></coordinates><panel_attributes>Drops
 --
 id: long
-chance: double(0..1)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>870</x><y>230</y><w>70</w><h>70</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;50;50;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1320</x><y>130</y><w>30</w><h>250</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;230;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1190</x><y>90</y><w>110</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>90;10;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>280</x><y>50</y><w>420</w><h>520</h></coordinates><panel_attributes>ItemPrototype
+chance: double(0..1)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>870</x><y>240</y><w>70</w><h>70</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;50;50;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1320</x><y>140</y><w>30</w><h>250</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;230;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1190</x><y>100</y><w>110</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>90;10;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>280</x><y>60</y><w>420</w><h>520</h></coordinates><panel_attributes>ItemPrototype
 --
-bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>480</y><w>150</w><h>70</h></coordinates><panel_attributes>SkillModifer
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>490</y><w>150</w><h>70</h></coordinates><panel_attributes>SkillModifer
 --
 id: long
 operator: varchar (ENUM)
-value: double</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>440</y><w>740</w><h>180</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;50;160;160;570;160;720;10</additional_attributes></element><element><id>Relation</id><coordinates><x>480</x><y>240</y><w>80</w><h>260</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>60;10;10;10;10;240</additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>240</y><w>110</w><h>60</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;90;40</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>720</x><y>160</y><w>500</w><h>290</h></coordinates><panel_attributes>MonsterPrototype
+value: double</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>450</y><w>740</w><h>180</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;50;160;160;570;160;720;10</additional_attributes></element><element><id>Relation</id><coordinates><x>480</x><y>250</y><w>80</w><h>260</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>60;10;10;10;10;240</additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>250</y><w>110</w><h>60</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;90;40</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>720</x><y>170</y><w>500</w><h>290</h></coordinates><panel_attributes>MonsterPrototype
 --
-bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>900</x><y>470</y><w>120</w><h>80</h></coordinates><panel_attributes>&lt;&lt;Enum&gt;&gt;
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>900</x><y>480</y><w>120</w><h>80</h></coordinates><panel_attributes>&lt;&lt;Enum&gt;&gt;
 EquipmentSlotType
 --
 id: long
 name: varchar(255)
 
-bg=0xff22ff</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>920</x><y>370</y><w>140</w><h>60</h></coordinates><panel_attributes>EquipmentSlots
+bg=0xff22ff</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>920</x><y>380</y><w>140</w><h>60</h></coordinates><panel_attributes>EquipmentSlots
 --
-id: long</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>860</x><y>280</y><w>100</w><h>100</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;80;80;10</additional_attributes></element><element><id>Relation</id><coordinates><x>950</x><y>420</y><w>60</w><h>70</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;50;40;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>750</x><y>360</y><w>140</w><h>60</h></coordinates><panel_attributes>IntrinsicEquipment
+id: long</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>860</x><y>290</y><w>100</w><h>100</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;80;80;10</additional_attributes></element><element><id>Relation</id><coordinates><x>950</x><y>430</y><w>60</w><h>70</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;50;40;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>750</x><y>370</y><w>140</w><h>60</h></coordinates><panel_attributes>IntrinsicEquipment
 --
-id: long</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>980</x><y>280</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>280</y><w>150</w><h>110</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;130;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>510</x><y>420</y><w>100</w><h>40</h></coordinates><panel_attributes>ApplicableSkills
+id: long</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>980</x><y>290</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>290</y><w>150</w><h>110</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;130;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>510</x><y>430</y><w>100</w><h>40</h></coordinates><panel_attributes>ApplicableSkills
 --
 id: long
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>260</y><w>50</w><h>180</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;160;10;10;30;10</additional_attributes></element><element><id>Relation</id><coordinates><x>600</x><y>420</y><w>730</w><h>170</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;200;150;560;150;710;30</additional_attributes></element><element><id>UMLNote</id><coordinates><x>1338</x><y>0</y><w>80</w><h>50</h></coordinates><panel_attributes>do it 
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>270</y><w>50</w><h>180</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;160;10;10;30;10</additional_attributes></element><element><id>Relation</id><coordinates><x>600</x><y>430</y><w>730</w><h>170</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;200;150;560;150;710;30</additional_attributes></element><element><id>UMLNote</id><coordinates><x>1338</x><y>10</y><w>80</w><h>50</h></coordinates><panel_attributes>do it 
 later..
-bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1350</x><y>40</y><w>40</w><h>70</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>20;10;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>550</x><y>350</y><w>100</w><h>40</h></coordinates><panel_attributes>SuitableSlots
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1350</x><y>50</y><w>40</w><h>70</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>20;10;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>550</x><y>360</y><w>100</w><h>40</h></coordinates><panel_attributes>SuitableSlots
 --
 id: long
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>380</y><w>310</w><h>120</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;130;100;290;100</additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>280</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1280</x><y>90</y><w>130</w><h>50</h></coordinates><panel_attributes>SkillRequirements
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>390</y><w>310</w><h>120</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;130;100;290;100</additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>290</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1280</x><y>100</y><w>130</w><h>50</h></coordinates><panel_attributes>SkillRequirements
 --
 id: long
 
-bg=0xaa11aa</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>90</y><w>150</w><h>100</h></coordinates><panel_attributes>StatsEnchantmets
+bg=0xaa11aa</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>100</y><w>150</w><h>100</h></coordinates><panel_attributes>StatsEnchantmets
 --
 id: long
 operator: varchar (ENUM)
 minvalue: double
 maxvalue: double
-chance: double(0..1)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>440</y><w>150</w><h>100</h></coordinates><panel_attributes>SkillEnchantmets
+chance: double(0..1)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>450</y><w>150</w><h>100</h></coordinates><panel_attributes>SkillEnchantmets
 --
 id: long
 operator: varchar (ENUM)
 minvalue: double
 maxvalue: double
-chance: double(0..1)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>180</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>30</y><w>970</w><h>80</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;60;50;10;950;10;950;50</additional_attributes></element><element><id>Relation</id><coordinates><x>150</x><y>440</y><w>1240</w><h>200</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;100;40;180;1080;180;1220;10</additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>290</y><w>30</w><h>170</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;10;150</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>0</x><y>50</y><w>230</w><h>520</h></coordinates><panel_attributes>ItemEnchantment
+chance: double(0..1)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>190</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>40</y><w>970</w><h>80</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;60;50;10;950;10;950;50</additional_attributes></element><element><id>Relation</id><coordinates><x>150</x><y>450</y><w>1240</w><h>200</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;100;40;180;1080;180;1220;10</additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>300</y><w>30</w><h>170</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;10;150</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>0</x><y>60</y><w>230</w><h>520</h></coordinates><panel_attributes>ItemEnchantmentPrototype
 --
-bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>240</y><w>160</w><h>60</h></coordinates><panel_attributes>ItemEnchantmentPrototype
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>250</y><w>160</w><h>60</h></coordinates><panel_attributes>ItemEnchantmentSample
 --
 id: long
 name: varchar(255)
 
-bg=0x00ff00</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>200</y><w>150</w><h>60</h></coordinates><panel_attributes>ItemEnchantmens
+bg=0x00ff00</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>210</y><w>150</w><h>60</h></coordinates><panel_attributes>ItemEnchantments
 --
 id: long
-value: double</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>200</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>80;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>200</y><w>150</w><h>70</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;50;130;10</additional_attributes></element></diagram>
+value: double</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>210</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>80;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>210</y><w>150</w><h>70</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;50;130;10</additional_attributes></element></diagram>

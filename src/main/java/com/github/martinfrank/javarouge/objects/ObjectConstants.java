@@ -17,12 +17,13 @@ public class ObjectConstants {
     private final List<Equipmentslottype> slotType;
 
     public ObjectConstants(ConfigurationProvider configurationProvider) {
+        //LOGGER.
         stat = new StatDaoExt(configurationProvider.getConfiguration()).fetchAll();
         skill = new SkillDaoExt(configurationProvider.getConfiguration()).fetchAll();
         slotType = new EquipmentslottypeDaoExt(configurationProvider.getConfiguration()).fetchAll();
     }
 
-    public Equipmentslottype getEquipmentTypeSlotById(Long id) {
+    public Equipmentslottype getEquipmentTypeSlotById(long id) {
         return slotType.stream().filter(s -> s.getId() == id).findAny().orElse(null);
     }
 

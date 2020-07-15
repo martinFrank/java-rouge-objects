@@ -1,7 +1,7 @@
 package com.github.martinfrank.javarouge.objects;
 
 import com.github.martinfrank.javarouge.objects.generated.tables.pojos.Equipmentslottype;
-import com.github.martinfrank.javarouge.objects.generated.tables.pojos.Item;
+import com.github.martinfrank.javarouge.objects.generated.tables.pojos.Itemsample;
 import com.github.martinfrank.javarouge.objects.generated.tables.pojos.Skill;
 import com.github.martinfrank.javarouge.objects.generated.tables.pojos.Stat;
 
@@ -12,18 +12,18 @@ import java.util.Map;
 
 public class ItemPrototype {
 
-    private final Item item;
+    private final Itemsample itemsample;
     private Map<Skill, Modifier> skillModifier = new HashMap<>();
     private Map<Stat, Modifier> statModifier = new HashMap<>();
     private List<Equipmentslottype> suitableSlots = new ArrayList<>();
     private List<Skill> applicableSkills = new ArrayList<>();
 
-    public ItemPrototype(Item item) {
-        this.item = item;
+    public ItemPrototype(Itemsample item) {
+        this.itemsample = item;
     }
 
-    public Item getItem() {
-        return item;
+    public Itemsample getItemsample() {
+        return itemsample;
     }
 
     public Map<Skill, Modifier> getSkillModifier() {
@@ -61,11 +61,12 @@ public class ItemPrototype {
     @Override
     public String toString() {
         return "ItemPrototype{" +
-                "item=" + item +
+                "item=" + itemsample +
                 ", skillModifier=" + skillModifier +
                 ", statModifier=" + statModifier +
                 ", suitableSlots=" + suitableSlots +
                 ", applicableSkills=" + applicableSkills +
                 '}';
     }
+
 }

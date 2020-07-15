@@ -1,1 +1,1 @@
-INSERT INTO Monster (name, difficulty, experience) VALUES ('%s', %s, %s);
+INSERT INTO MonsterSample (name, difficulty, experience) VALUES ('%s', %s, %s);

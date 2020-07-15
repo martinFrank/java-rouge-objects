@@ -29,3 +29,8 @@ WHERE SKILL.NAME = 'Sneaking'), 'Minus', 1.2) [90053-197]
 	at com.github.martinfrank.javarouge.objects.csv.SqlExecutor.createDb(SqlExecutor.java:34)
 	at com.github.martinfrank.javarouge.objects.csv.CsvDbGenerator.generate(CsvDbGenerator.java:36)
 	at com.github.martinfrank.javarouge.objects.csv.CsvDbGenerator.main(CsvDbGenerator.java:17)
+2020-07-15 07:22:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabelle "MONSTER" nicht gefunden
+Table "MONSTER" not found; SQL statement:
+
+create TABLE IF NOT EXISTS Stats(id IDENTITY NOT NULL, monster LONG NOT NULL, stat LONG NOT NULL, value DOUBLE, FOREIGN KEY (monster) REFERENCES Monster(id) , FOREIGN KEY (stat) REFERENCES Stat(id) ) [42102-197]

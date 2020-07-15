@@ -20,27 +20,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e9f8709-7600-4957-8fbc-d03681431351" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/java-rouge-objects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/java-rouge-objects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-rouge-javafx/java-rouge-javafx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge-javafx/java-rouge-javafx.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-rouge-javafx/src/main/java/com/github/martinfrank/javarouge/javafx/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge-javafx/src/main/java/com/github/martinfrank/javarouge/javafx/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-rouge-javafx/src/main/java/com/github/martinfrank/javarouge/javafx/view/FieldRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge-javafx/src/main/java/com/github/martinfrank/javarouge/javafx/view/FieldRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-rouge-javafx/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge-javafx/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects.mv.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects.trace.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/DbCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/DbCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/H2ConfigurationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/H2ConfigurationProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/objects.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/objects.trace.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ItemManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ItemManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ItemPrototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ItemPrototype.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/MonsterManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/MonsterManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ObjectsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ObjectsManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ObjectsManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ObjectsManagerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/SystemData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ObjectConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/ApplicableSkill.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/ApplicableSkill.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/SkillModifier.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/SkillModifier.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/SuitableSlots.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/SuitableSlots.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/dbschema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/dbschema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/MonsterPrototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/MonsterPrototype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ObjectConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/javarouge/objects/ObjectConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/codegen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/codegen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/gensql/applicableSkills.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/gensql/applicableSkills.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/gensql/drops.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/gensql/drops.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/gensql/equipmentSlots.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/gensql/equipmentSlots.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/gensql/intrinsicEquipment.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/gensql/intrinsicEquipment.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/gensql/item.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/gensql/item.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/gensql/monster.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/gensql/monster.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/gensql/skillModifier.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/gensql/skillModifier.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/gensql/skills.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/gensql/skills.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/gensql/startEquipment.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/gensql/startEquipment.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/gensql/statModifier.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/gensql/statModifier.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/gensql/stats.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/gensql/stats.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/gensql/suitableSlots.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/gensql/suitableSlots.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/schema/objects.schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/schema/objects.schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templatesql/applicableSkills.sql.template" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templatesql/applicableSkills.sql.template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templatesql/drops.sql.template" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templatesql/drops.sql.template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templatesql/equipmentSlots.sql.template" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templatesql/equipmentSlots.sql.template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templatesql/intrinsicEquipment.sql.template" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templatesql/intrinsicEquipment.sql.template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templatesql/item.sql.template" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templatesql/item.sql.template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templatesql/monster.sql.template" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templatesql/monster.sql.template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templatesql/skillModifier.sql.template" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templatesql/skillModifier.sql.template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templatesql/skills.sql.template" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templatesql/skills.sql.template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templatesql/startEquipment.sql.template" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templatesql/startEquipment.sql.template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templatesql/statModifier.sql.template" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templatesql/statModifier.sql.template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templatesql/stats.sql.template" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templatesql/stats.sql.template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templatesql/suitableSlots.sql.template" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templatesql/suitableSlots.sql.template" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/codegen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codegen.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dbconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dbconfig.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uml/erd.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/uml/erd.uxf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-rouge/java-rouge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge/java-rouge.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-rouge/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-rouge/src/main/java/com/github/martinfrank/javarouge/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge/src/main/java/com/github/martinfrank/javarouge/model/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-rouge/src/main/java/com/github/martinfrank/javarouge/model/RougeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge/src/main/java/com/github/martinfrank/javarouge/model/RougeGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-rouge/src/main/java/com/github/martinfrank/javarouge/model/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge/src/main/java/com/github/martinfrank/javarouge/model/entity/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-rouge/src/main/java/com/github/martinfrank/javarouge/model/map/MapUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge/src/main/java/com/github/martinfrank/javarouge/model/map/MapUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-rouge/src/main/java/com/github/martinfrank/javarouge/model/map/RougeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge/src/main/java/com/github/martinfrank/javarouge/model/map/RougeMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-rouge/src/main/java/com/github/martinfrank/javarouge/model/mapdata/RougeMapFieldData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge/src/main/java/com/github/martinfrank/javarouge/model/mapdata/RougeMapFieldData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-rouge/src/main/java/com/github/martinfrank/javarouge/model/maze/MazeGeneratorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge/src/main/java/com/github/martinfrank/javarouge/model/maze/MazeGeneratorUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-rouge/src/main/java/com/github/martinfrank/javarouge/save/SaveGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge/src/main/java/com/github/martinfrank/javarouge/save/SaveGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-rouge/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-rouge/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-rouge/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../java-rouge/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +96,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../java-rouge" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="hiddenUrls">
@@ -94,7 +129,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592999810570" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templatesql" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="RainbowCSV.Settings" />
   </component>
@@ -122,7 +157,20 @@
       <recent name="com.github.martinfrank.javarouge.objects.csv" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ObjectsManagerTest">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.martinfrank.javarouge.javafx.App" />
+      <module name="java-rouge-javafx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.martinfrank.javarouge.javafx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CsvDbGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.martinfrank.javarouge.objects.csv.CsvDbGenerator" />
       <module name="java-rouge-objects" />
@@ -180,19 +228,6 @@
       <module name="java-rouge-objects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.martinfrank.javarouge.objects.csv.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SchemaCreator" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.martinfrank.javarouge.objects.SchemaCreator" />
-      <module name="java-rouge-objects" />
-      <extension name="coverage">
-        <pattern>
           <option name="PATTERN" value="com.github.martinfrank.javarouge.objects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
@@ -233,14 +268,15 @@
       <item itemvalue="Application.DbCreator" />
       <item itemvalue="Application.CustomCsvReader" />
       <item itemvalue="Application.CsvDbGenerator" />
+      <item itemvalue="Application.App" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ObjectsManagerTest" />
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.CsvDbGenerator" />
+        <item itemvalue="Application.ObjectsManagerTest" />
         <item itemvalue="Application.DbCreator" />
         <item itemvalue="Application.CustomCsvReader" />
-        <item itemvalue="Application.SchemaCreator" />
       </list>
     </recent_temporary>
   </component>
@@ -391,7 +427,42 @@
       <option name="project" value="LOCAL" />
       <updated>1594217337815</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="switched to csv">
+      <created>1594633834083</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1594633834083</updated>
+    </task>
+    <task id="LOCAL-00021" summary="switched to csv">
+      <created>1594633869396</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1594633869396</updated>
+    </task>
+    <task id="LOCAL-00022" summary="switched to csv">
+      <created>1594634063904</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1594634063904</updated>
+    </task>
+    <task id="LOCAL-00023" summary="temp removed tests">
+      <created>1594802978462</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1594802978463</updated>
+    </task>
+    <task id="LOCAL-00024" summary="included java-rouge-objects">
+      <created>1594803015353</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1594803015353</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -423,7 +494,10 @@
     <MESSAGE value="intellij" />
     <MESSAGE value="added content to objects db" />
     <MESSAGE value="added item management" />
-    <option name="LAST_COMMIT_MESSAGE" value="added item management" />
+    <MESSAGE value="switched to csv" />
+    <MESSAGE value="temp removed tests" />
+    <MESSAGE value="included java-rouge-objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="included java-rouge-objects" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -437,25 +511,26 @@
     </state>
     <state x="860" y="-824" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594621669826" />
     <state x="860" y="337" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594626900416" />
-    <state x="730" y="-914" key="#com.intellij.ide.util.MemberChooser" timestamp="1594626142274">
+    <state x="730" y="-914" key="#com.intellij.ide.util.MemberChooser" timestamp="1594801471455">
       <screen x="0" y="-1200" width="1920" height="1160" />
     </state>
-    <state x="730" y="-914" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594626142274" />
-    <state x="730" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594216762951" />
-    <state x="483" y="-1200" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1594618970981">
+    <state x="730" y="-914" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594801471455" />
+    <state x="730" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594648247393" />
+    <state x="483" y="-1200" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1594798832421">
       <screen x="0" y="-1200" width="1920" height="1160" />
     </state>
-    <state x="483" y="-1200" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594618970981" />
-    <state x="483" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594279131961" />
-    <state x="656" y="-891" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594618825245">
-      <screen x="0" y="-1200" width="1920" height="1160" />
-    </state>
-    <state x="656" y="-891" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594618825245" />
-    <state x="656" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594042512147" />
-    <state x="520" y="171" key="CommitChangelistDialog2" timestamp="1594217334524">
+    <state x="483" y="-1200" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594798832421" />
+    <state x="483" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594790949218" />
+    <state x="656" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594634032241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="520" y="171" key="CommitChangelistDialog2/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594217334524" />
+    <state x="656" y="-891" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594618825245" />
+    <state x="656" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594634032241" />
+    <state x="520" y="-1009" key="CommitChangelistDialog2" timestamp="1594803012896">
+      <screen x="0" y="-1200" width="1920" height="1160" />
+    </state>
+    <state x="520" y="-1009" key="CommitChangelistDialog2/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594803012896" />
+    <state x="520" y="171" key="CommitChangelistDialog2/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594634061711" />
     <state x="689" y="334" width="354" height="319" key="DBNavigator.ConnectionAuthenticationDialog" timestamp="1593007127563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -477,26 +552,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="646" y="210" key="FileChooserDialogImpl/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593003675458" />
-    <state width="1389" height="297" key="GridCell.Tab.0.bottom" timestamp="1594633554441">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1389" height="297" key="GridCell.Tab.0.bottom" timestamp="1594802938727">
+      <screen x="0" y="-1200" width="1920" height="1160" />
     </state>
-    <state width="1389" height="297" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594624753711" />
-    <state width="1389" height="297" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594633554441" />
-    <state width="1389" height="297" key="GridCell.Tab.0.center" timestamp="1594633554441">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1389" height="297" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594802938727" />
+    <state width="1389" height="297" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594796332872" />
+    <state width="1389" height="297" key="GridCell.Tab.0.center" timestamp="1594802938727">
+      <screen x="0" y="-1200" width="1920" height="1160" />
     </state>
-    <state width="1389" height="297" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594624753711" />
-    <state width="1389" height="297" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594633554441" />
-    <state width="1389" height="297" key="GridCell.Tab.0.left" timestamp="1594633554441">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1389" height="297" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594802938727" />
+    <state width="1389" height="297" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594796332872" />
+    <state width="1389" height="297" key="GridCell.Tab.0.left" timestamp="1594802938727">
+      <screen x="0" y="-1200" width="1920" height="1160" />
     </state>
-    <state width="1389" height="297" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594624753710" />
-    <state width="1389" height="297" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594633554441" />
-    <state width="1389" height="297" key="GridCell.Tab.0.right" timestamp="1594633554441">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1389" height="297" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594802938727" />
+    <state width="1389" height="297" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594796332872" />
+    <state width="1389" height="297" key="GridCell.Tab.0.right" timestamp="1594802938727">
+      <screen x="0" y="-1200" width="1920" height="1160" />
     </state>
-    <state width="1389" height="297" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594624753711" />
-    <state width="1389" height="297" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594633554441" />
+    <state width="1389" height="297" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594802938727" />
+    <state width="1389" height="297" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594796332872" />
     <state width="1389" height="262" key="GridCell.Tab.1.bottom" timestamp="1594279364318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -517,15 +592,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="561" y="200" key="RollbackChangesDialog/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594632866875" />
-    <state x="522" y="-1052" key="SettingsEditor" timestamp="1594279701524">
-      <screen x="0" y="-1200" width="1920" height="1160" />
-    </state>
-    <state x="522" y="-1052" key="SettingsEditor/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594279701524" />
-    <state x="522" y="133" key="SettingsEditor/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1593176438494" />
-    <state x="458" y="202" key="Vcs.Push.Dialog.v2" timestamp="1594217341658">
+    <state x="522" y="133" key="SettingsEditor" timestamp="1594647859398">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="458" y="202" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594217341658" />
+    <state x="522" y="-1052" key="SettingsEditor/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594279701524" />
+    <state x="522" y="133" key="SettingsEditor/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594647859398" />
+    <state x="458" y="-975" key="Vcs.Push.Dialog.v2" timestamp="1594803016994">
+      <screen x="0" y="-1200" width="1920" height="1160" />
+    </state>
+    <state x="458" y="-975" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594803016994" />
+    <state x="458" y="202" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594634070520" />
     <state x="614" y="479" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594042684883">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -544,5 +620,16 @@
     </state>
     <state x="456" y="-898" width="672" height="757" key="search.everywhere.popup/0.0.1920.1040/0.-1200.1920.1160@0.-1200.1920.1160" timestamp="1594623267261" />
     <state x="456" y="271" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1594045789440" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../java-rouge/src/main/java/com/github/martinfrank/javarouge/model/Player.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
