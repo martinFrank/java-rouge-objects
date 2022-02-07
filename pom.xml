@@ -70,7 +70,7 @@
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
-            <version>1.2.17</version>
+            <version>1.2.27</version>
         </dependency>
         <!-- Note: These aren't hosted on Maven Central. Import them manually from your distribution -->
         <!-- Replace the groupId by org.jooq.trial-java-6 (Java 6 support), or org.jooq.trial (Java 11 support) if needed -->
